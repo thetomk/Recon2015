@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="aws-java-sdk-elasticache-1.9.17">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elasticache/1.9.17/e34118e495d2958faa8c556eefddf4b4eb655a00/aws-java-sdk-elasticache-1.9.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elasticache/1.9.17/bc53402f9023b5df89343d9ea5ba0dc7f1fcddbd/aws-java-sdk-elasticache-1.9.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <TextView
+        android:id="@+id/TextMatch"
+        android:layout_width="82dp"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:text="E-SF18"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:background="#0000ff" >
+
+            <TextView
+                android:id="@+id/TextBlue1"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.08"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="4567"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/TextBlue2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="0.27"
+                android:text="1234"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/TextBlue3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.36"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="3456"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/TextBlueScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="0.13"
+                android:text="123"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:background="#ff0000" >
+
+            <TextView
+                android:id="@+id/TextRed1"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.08"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="100"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/TextRed2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="0.37"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="200"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/TextRed3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="0.60"
+                android:text="400"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/TextRedScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="0.13"
+                android:text="76"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
