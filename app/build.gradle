@@ -8,6 +8,7 @@ android {
         applicationId "com.eaglerobotics.reconalpha"
         minSdkVersion 14
         targetSdkVersion 18
+        multiDexEnabled = true
     }
 
     buildTypes {
@@ -15,6 +16,12 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
     }
 }
 

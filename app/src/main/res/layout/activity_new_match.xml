@@ -168,7 +168,7 @@
             android:text="ToggleButton"
             android:textOff="Auto Move"
             android:textOn="Auto Move"
-            android:textSize="12sp" />
+            android:textSize="10sp" />
 
         <ToggleButton
             android:id="@+id/toggleAutoTote"
@@ -177,7 +177,7 @@
             android:text="ToggleButton"
             android:textOff="Auto Tote"
             android:textOn="Auto Tote"
-            android:textSize="12sp" />
+            android:textSize="10sp" />
 
         <ToggleButton
             android:id="@+id/toggleAutoBin"
@@ -186,7 +186,7 @@
             android:text="ToggleButton"
             android:textOff="Auto  Bin"
             android:textOn="Auto  Bin"
-            android:textSize="12sp" />
+            android:textSize="10sp" />
 
         <ToggleButton
             android:id="@+id/toggleAutoStack"
@@ -195,12 +195,12 @@
             android:text="x"
             android:textOff="Auto Stack"
             android:textOn="Auto Stack"
-            android:textSize="12sp" />
+            android:textSize="10sp" />
 
         <ToggleButton
             android:id="@+id/toggleFast"
             android:layout_width="60dp"
-            android:textSize="12sp"
+            android:textSize="10sp"
             android:layout_height="wrap_content"
             android:text="ToggleButton"
             android:textOff="Fast Stack"
@@ -219,7 +219,7 @@
             android:text="ToggleButton"
             android:textOff="Stack Tote"
             android:textOn="Stack Tote"
-            android:textSize="12sp" />
+            android:textSize="10sp" />
 
         <ToggleButton
             android:id="@+id/toggleStackBin"
@@ -228,12 +228,12 @@
             android:text="ToggleButton"
             android:textOff="Stack Bin"
             android:textOn="Stack Bin"
-            android:textSize="12sp" />
+            android:textSize="10sp" />
 
         <ToggleButton
             android:id="@+id/toggleCarry"
             android:layout_width="60dp"
-            android:textSize="12sp"
+            android:textSize="10sp"
             android:layout_height="wrap_content"
             android:text="ToggleButton"
             android:textOff="Carry Stack"
@@ -244,9 +244,9 @@
             android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal|center_vertical"
-            android:textOff="Noodle Bin"
-            android:textOn="Noodle Bin"
-            android:textSize="12sp" />
+            android:textOff="Noodl Bin"
+            android:textOn="Noodl Bin"
+            android:textSize="10sp" />
 
         <ToggleButton
             android:id="@+id/toggleDriver"
@@ -255,7 +255,7 @@
             android:text="ToggleButton"
             android:textOff="Good Driver"
             android:textOn="Good Driver"
-            android:textSize="12sp" />
+            android:textSize="10sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -270,7 +270,7 @@
             android:text="ToggleButton"
             android:textOff="CoOp Tote"
             android:textOn="CoOp Tote"
-            android:textSize="12sp" />
+            android:textSize="10sp" />
 
         <ToggleButton
             android:id="@+id/toggleCoopStack"
@@ -279,25 +279,25 @@
             android:text="ToggleButton"
             android:textOff="CoOp Stack"
             android:textOn="CoOp Stack"
-            android:textSize="12sp" />
+            android:textSize="10sp" />
 
         <ToggleButton
             android:id="@+id/toggleNoodleFloor"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:text="ToggleButton"
-            android:textOff="Noodle Floor"
-            android:textOn="Noodle Floor"
-            android:textSize="12sp" />
+            android:textOff="Noodl Floor"
+            android:textOn="Noodl Floor"
+            android:textSize="10sp" />
 
         <ToggleButton
             android:id="@+id/toggleNoodleThrow"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:text="ToggleButton"
-            android:textOff="Noodle Throw"
-            android:textOn="Noodle Throw"
-            android:textSize="12sp" />
+            android:textOff="Noodl Throw"
+            android:textOn="Noodl Throw"
+            android:textSize="10sp" />
 
         <ToggleButton
             android:id="@+id/toggleDied"
@@ -305,9 +305,9 @@
             android:layout_height="wrap_content"
             android:text="ToggleButton"
             android:textColor="@color/Red"
-            android:textOff="Broken Down"
-            android:textOn="Broken Down"
-            android:textSize="12sp" />
+            android:textOff="Bad Robot"
+            android:textOn="Bad Robot"
+            android:textSize="10sp" />
 
     </LinearLayout>
 
@@ -325,7 +325,7 @@
             android:textAllCaps="false"
             android:textOff="PICK?"
             android:textOn="PICK"
-            android:textSize="12sp"
+            android:textSize="10sp"
             android:textStyle="bold" />
 
     </LinearLayout>

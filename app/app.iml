@@ -109,6 +109,7 @@
     <orderEntry type="library" exported="" name="jackson-databind-2.3.2" level="project" />
     <orderEntry type="library" exported="" name="twitter4j-async-3.0.5" level="project" />
     <orderEntry type="library" exported="" name="aws-java-sdk-importexport-1.9.17" level="project" />
+    <orderEntry type="library" exported="" name="multidex-1.0.0" level="project" />
     <orderEntry type="library" exported="" name="jackson-core-2.3.2" level="project" />
     <orderEntry type="library" exported="" name="twitter4j-core-3.0.5" level="project" />
     <orderEntry type="library" exported="" name="aws-java-sdk-datapipeline-1.9.17" level="project" />
