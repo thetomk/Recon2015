@@ -10,12 +10,7 @@ import java.util.HashMap;
 
 import com.amazonaws.auth.AWSCredentials;
 import com.amazonaws.auth.BasicAWSCredentials;
-import com.amazonaws.services.s3.AmazonS3;
-import com.amazonaws.services.s3.AmazonS3Client;
-import com.amazonaws.services.s3.model.ObjectMetadata;
-import com.amazonaws.services.s3.model.S3Object;
-import com.amazonaws.services.s3.transfer.Download;
-import com.amazonaws.services.s3.transfer.TransferManager;
+
 import com.eaglerobotics.reconalpha.DynamoDBManager.TeamData;
 import com.eaglerobotics.reconalpha.DynamoDBManager.TeamMatch;
 import com.eaglerobotics.reconalpha.adapters.CustomTeamArrayAdapter;
@@ -65,7 +60,7 @@ public class ViewTeam extends Activity {
 	private ProgressDialog pd;
 	private Context context;
 	String tm;
-	AmazonS3 s3;
+
 	String imageName, bucketName;
 	long modDate;
 

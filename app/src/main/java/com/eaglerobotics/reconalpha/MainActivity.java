@@ -1,6 +1,6 @@
 package com.eaglerobotics.reconalpha;
 
-import com.amazonaws.tvmclient.AmazonClientManager;
+import com.amazonaws.cognito.AWSClientMgr;
 import com.eaglerobotics.reconalpha.twitter.FRCResults;
 
 import android.app.Activity;
@@ -14,7 +14,8 @@ import android.widget.Button;
 
 public class MainActivity extends Activity {
 	
-	public static AmazonClientManager clientManager = null;
+//	public static AmazonClientManager clientManager = null;
+    public static AWSClientMgr clientManager = null;
 	String perms;
 	
 	@Override
@@ -45,10 +46,12 @@ public class MainActivity extends Activity {
 			btn.setVisibility(View.INVISIBLE);
 		}
 		
-		// Create AmazonClientManager with SharedPreference
+/*		// Create AmazonClientManager with SharedPreference
 		clientManager = new AmazonClientManager(getSharedPreferences(
 				"com.eaglerobotics.recona",
 				Context.MODE_PRIVATE));
+*/
+        clientManager = new AWSClientMgr(this);
 
 
 	}

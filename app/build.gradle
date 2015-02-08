@@ -26,10 +26,12 @@ android {
 }
 
 dependencies {
-    compile 'com.google.code.gson:gson:2.2.4'
     compile 'com.android.support:support-v4:18.0.0'
-    compile 'com.amazonaws:aws-java-sdk:1.9.17'
     compile files('libs/twitter4j-async-3.0.5.jar')
     compile files('libs/twitter4j-core-3.0.5.jar')
     compile 'org.apache.directory.studio:org.apache.commons.codec:1.8'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile files('libs/aws-android-sdk-2.1.8-core.jar')
+    compile files('libs/aws-android-sdk-2.1.8-ddb-mapper.jar')
+    compile files('libs/aws-android-sdk-2.1.8-ddb.jar')
 }
