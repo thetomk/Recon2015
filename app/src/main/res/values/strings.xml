@@ -52,6 +52,14 @@
         <item>Shooter</item>
         <item>Shooter/Catcher</item>
     </string-array>
+    <string-array name="stack_height">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
 
     <string name="title_activity_match_list">MatchListActivity</string>
     <string name="title_activity_team">TeamActivity</string>
@@ -80,5 +88,6 @@
     <string name="title_activity_pit_scouting">Pit Scouting</string>
     <string name="title_activity_make_photo">MakePhoto</string>
     <string name="title_activity_team_list">TeamList</string>
+    <string name="title_activity_save_match">SaveMatch</string>
 
 </resources>

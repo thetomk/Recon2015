@@ -98,13 +98,7 @@ public class ViewTeam extends Activity {
 	        Intent intent = new Intent(this, Prefs.class);
 	        startActivity(intent);
 	        return true; 
-	    case R.id.action_photo:
-/*	    	if (tmobj != null) {
-	    		if (tmobj.getTeamPhoto() !=null) {
-	    			getPhoto();
-	    		}
-	    	} */
-	        return true;  
+
 	    case R.id.action_refresh:
 			getTeamData(this.findViewById(R.layout.activity_team));
 	        return true;  

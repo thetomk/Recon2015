@@ -73,7 +73,7 @@
                         android:id="@+id/TextViewL01"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="5dp"
+                        android:layout_marginRight="15dp"
                         android:text="AutoMove"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -94,7 +94,7 @@
                         android:id="@+id/TextViewL05"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="8dp"
+                        android:layout_marginRight="16dp"
                         android:text="StackTote"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -140,7 +140,7 @@
                         android:id="@+id/TextViewL06"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="21dp"
+                        android:layout_marginRight="26dp"
                         android:text="StackBin"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -165,7 +165,7 @@
                         android:id="@+id/TextViewL04"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="18dp"
+                        android:layout_marginRight="30dp"
                         android:text="AutoBin"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -186,7 +186,7 @@
                         android:id="@+id/TextViewL07"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="12dp"
+                        android:layout_marginRight="48dp"
                         android:text="Carry"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -211,7 +211,7 @@
                         android:id="@+id/TextViewL08"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="17dp"
+                        android:layout_marginRight="15dp"
                         android:text="AutoStack"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -232,7 +232,7 @@
                         android:id="@+id/TextViewL09"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="32dp"
+                        android:layout_marginRight="28dp"
                         android:text="NoodBin"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -257,7 +257,7 @@
                         android:id="@+id/TextViewL10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="33dp"
+                        android:layout_marginRight="42dp"
                         android:text="Driver"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -278,7 +278,7 @@
                         android:id="@+id/TextViewL11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="33dp"
+                        android:layout_marginRight="53dp"
                         android:text="Fast"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -304,7 +304,7 @@
                         android:id="@+id/TextViewL12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="12dp"
+                        android:layout_marginRight="13dp"
                         android:text="Coop Tote"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -325,7 +325,7 @@
                         android:id="@+id/TextViewL13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="10dp"
+                        android:layout_marginRight="12dp"
                         android:text="Nood Floor"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -350,7 +350,7 @@
                         android:id="@+id/TextViewL14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="27dp"
+                        android:layout_marginRight="6dp"
                         android:text="Coop Stack"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -371,7 +371,7 @@
                         android:id="@+id/TextViewL15"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="40dp"
+                        android:layout_marginRight="6dp"
                         android:text="Nood Throw"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -418,7 +418,7 @@
                         android:id="@+id/TextViewL17"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="40dp"
+                        android:layout_marginRight="53dp"
                         android:text="Died"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
