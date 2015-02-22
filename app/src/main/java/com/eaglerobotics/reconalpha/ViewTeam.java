@@ -190,8 +190,14 @@ public class ViewTeam extends Activity {
 	         TextView tvR14 = (TextView) findViewById(R.id.TextViewR14);
 	         TextView tvR15 = (TextView) findViewById(R.id.TextViewR15);
 	         TextView tvR16 = (TextView) findViewById(R.id.TextViewR16);
-	         TextView tvR17 = (TextView) findViewById(R.id.TextViewR17);
-	         
+             TextView tvR17 = (TextView) findViewById(R.id.TextViewR17);
+             TextView tvR18 = (TextView) findViewById(R.id.TextViewR18);
+             TextView tvR19 = (TextView) findViewById(R.id.TextViewR19);
+             TextView tvR20 = (TextView) findViewById(R.id.TextViewR20);
+             TextView tvR21 = (TextView) findViewById(R.id.TextViewR21);
+             TextView tvR23 = (TextView) findViewById(R.id.TextViewR23);
+             TextView tvR24 = (TextView) findViewById(R.id.TextViewR24);
+
 	         TextView tvL1 = (TextView) findViewById(R.id.TextViewL01);
 	         TextView tvL2 = (TextView) findViewById(R.id.TextViewL02);
 	         TextView tvL3 = (TextView) findViewById(R.id.TextViewL03);
@@ -209,15 +215,22 @@ public class ViewTeam extends Activity {
 	         TextView tvL15 = (TextView) findViewById(R.id.TextViewL15);
 	         TextView tvL16 = (TextView) findViewById(R.id.TextViewL16);
 	         TextView tvL17 = (TextView) findViewById(R.id.TextViewL17);
+             TextView tvL18 = (TextView) findViewById(R.id.TextViewL18);
+             TextView tvL19 = (TextView) findViewById(R.id.TextViewL19);
+             TextView tvL20 = (TextView) findViewById(R.id.TextViewL20);
+             TextView tvL21 = (TextView) findViewById(R.id.TextViewL21);
+             TextView tvL23 = (TextView) findViewById(R.id.TextViewL23);
+             TextView tvL24 = (TextView) findViewById(R.id.TextViewL24);
 
 	         TextView tvOA = (TextView) findViewById(R.id.textViewOA);
-	         TextView tvOT = (TextView) findViewById(R.id.textViewOT);
+//	         TextView tvOT = (TextView) findViewById(R.id.textViewOT);
 	         TextView tvOF = (TextView) findViewById(R.id.textViewOF);
 	         TextView tvOL = (TextView) findViewById(R.id.textViewOL);
 	         TextView tvDA = (TextView) findViewById(R.id.textViewDA);
-	         TextView tvDT = (TextView) findViewById(R.id.textViewDT);
+//	         TextView tvDT = (TextView) findViewById(R.id.textViewDT);
 	         TextView tvDF = (TextView) findViewById(R.id.textViewDF);
-	         TextView tvDL = (TextView) findViewById(R.id.textViewDL);
+             TextView tvDL = (TextView) findViewById(R.id.textViewDL);
+             TextView tvQA = (TextView) findViewById(R.id.textViewQA);
 
 	         synPb.setProgress(teamSynopsis.getGoodPct());
 
@@ -238,15 +251,28 @@ public class ViewTeam extends Activity {
 	         setInfo(tmobj.getNoodleFloor(),tmobj.getNumMatches() ,tvL13, tvR13, 0x7700FF00);
 	         setInfo(tmobj.getNoodleThrow(),tmobj.getNumMatches() ,tvL15, tvR15, 0x7700FF00);
 	         setInfo(tmobj.getDied(),tmobj.getNumMatches() ,tvL17, tvR17, 0x77FF0000);
-	         
+
+            tvR18.setText(String.format("%.1f", (float)tmobj.getAutoPts()/(float)tmobj.getRankedMatches() ));
+            tvR19.setText(String.format("%.1f", (float)tmobj.getTotePts()/(float)tmobj.getRankedMatches() ));
+            tvR20.setText(String.format("%.1f", (float)tmobj.getBinPts()/(float)tmobj.getRankedMatches() ));
+            tvR21.setText(String.format("%.1f", (float)tmobj.getNoodlePts()/(float)tmobj.getRankedMatches() ));
+            tvR23.setText(String.format("%.1f", (float)tmobj.getCoopPts()/(float)tmobj.getRankedMatches() ));
+
+            tvR24.setText(Integer.toString(tmobj.getRank()));
+            tvL24.setBackgroundColor(0x00000000);
+            if (tmobj.getRank() <= 10) {
+                tvL24.setBackgroundColor(0x7700FF00);
+            }
+
 	         tvOA.setText(String.format("%.1f", (float)tmobj.getOAuto()/(float)tmobj.getNumScores() ));
-	         tvOT.setText(String.format("%.1f", (float)tmobj.getOTele()/(float)tmobj.getNumScores() ));
+//	         tvOT.setText(String.format("%.1f", (float)tmobj.getOTele()/(float)tmobj.getNumScores() ));
 	         tvOF.setText(String.format("%.1f", (float)tmobj.getOFoul()/(float)tmobj.getNumScores() ));
 	         tvOL.setText(String.format("%.1f", (float)tmobj.getOTotal()/(float)tmobj.getNumScores() ));
 	         tvDA.setText(String.format("%.1f", (float)tmobj.getDAuto()/(float)tmobj.getNumScores() ));
-	         tvDT.setText(String.format("%.1f", (float)tmobj.getDTele()/(float)tmobj.getNumScores() ));
+//	         tvDT.setText(String.format("%.1f", (float)tmobj.getDTele()/(float)tmobj.getNumScores() ));
 	         tvDF.setText(String.format("%.1f", (float)tmobj.getDFoul()/(float)tmobj.getNumScores() ));
 	         tvDL.setText(String.format("%.1f", (float)tmobj.getDTotal()/(float)tmobj.getNumScores() ));
+             tvQA.setText(String.format("%.1f", tmobj.getQualAvg()));
 	         
         	 tvOL.setBackgroundColor(0x00000000);
         	 tvDL.setBackgroundColor(0x00000000);

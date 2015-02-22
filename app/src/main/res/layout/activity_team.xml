@@ -86,6 +86,27 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/TextViewL18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:text="AutoPts"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/TextViewR18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="right" >
@@ -94,8 +115,8 @@
                         android:id="@+id/TextViewL05"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="16dp"
-                        android:text="StackTote"
+                        android:layout_marginRight="8dp"
+                        android:text="StkTote"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
                     <TextView
@@ -132,6 +153,27 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/TextViewL19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:text="TotePts"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/TextViewR19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="right" >
@@ -140,8 +182,8 @@
                         android:id="@+id/TextViewL06"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="26dp"
-                        android:text="StackBin"
+                        android:layout_marginRight="8dp"
+                        android:text="StkBin"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
                     <TextView
@@ -178,6 +220,27 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/TextViewL20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="23dp"
+                        android:text="BinPts"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/TextViewR20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="right" >
@@ -186,7 +249,7 @@
                         android:id="@+id/TextViewL07"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="48dp"
+                        android:layout_marginRight="8dp"
                         android:text="Carry"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -224,6 +287,27 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/TextViewL21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="NoodPts"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/TextViewR21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="right" >
@@ -232,8 +316,8 @@
                         android:id="@+id/TextViewL09"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="28dp"
-                        android:text="NoodBin"
+                        android:layout_marginRight="8dp"
+                        android:text="NdlBin"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
                     <TextView
@@ -270,6 +354,27 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/TextViewL23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="11dp"
+                        android:text="CoOpPts"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/TextViewR23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="right" >
@@ -278,7 +383,7 @@
                         android:id="@+id/TextViewL11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="53dp"
+                        android:layout_marginRight="8dp"
                         android:text="Fast"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -325,8 +430,8 @@
                         android:id="@+id/TextViewL13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="12dp"
-                        android:text="Nood Floor"
+                        android:layout_marginRight="8dp"
+                        android:text="NdlFlr"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
                     <TextView
@@ -361,6 +466,26 @@
                         android:text="--"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
                 </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/TextViewL24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="35dp"
+                        android:text="Rank"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/TextViewR24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -371,8 +496,8 @@
                         android:id="@+id/TextViewL15"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="6dp"
-                        android:text="Nood Throw"
+                        android:layout_marginRight="8dp"
+                        android:text="NdlThr"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
                     <TextView
@@ -397,7 +522,7 @@
                         android:id="@+id/TextViewL16"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="27dp"
+                        android:layout_marginRight="18dp"
                         android:text="Pickable?"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -409,6 +534,7 @@
                         android:textAppearance="?android:attr/textAppearanceSmall" />
                 </LinearLayout>
 
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -418,7 +544,7 @@
                         android:id="@+id/TextViewL17"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="53dp"
+                        android:layout_marginRight="8dp"
                         android:text="Died"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -449,7 +575,7 @@
                 android:layout_height="match_parent" >
 
                 <Space
-                    android:layout_width="65dp"
+                    android:layout_width="95dp"
                     android:layout_height="match_parent" />
 
                 <TextView
@@ -458,14 +584,6 @@
                     android:layout_height="wrap_content"
                      android:gravity="center"
                     android:text="Auto"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
-
-                <TextView
-                    android:id="@+id/textView4"
-                    android:layout_width="45dp"
-                    android:layout_height="wrap_content"
-                     android:gravity="center"
-                    android:text="Tele"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
@@ -480,9 +598,18 @@
                     android:id="@+id/textView6"
                     android:layout_width="45dp"
                     android:layout_height="wrap_content"
-                     android:gravity="center"
+                    android:gravity="center"
                     android:text="Total"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/textView6x"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Qual Avg"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_marginLeft="15dp" />
 
             </LinearLayout>
 
@@ -492,21 +619,13 @@
 
                 <TextView
                     android:id="@+id/textView1"
-                    android:layout_width="65dp"
+                    android:layout_width="95dp"
                     android:layout_height="wrap_content"
-                    android:text="Offense"
+                    android:text="Team Offense"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
                     android:id="@+id/textViewOA"
-                    android:layout_width="45dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="--"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
-
-                <TextView
-                    android:id="@+id/textViewOT"
                     android:layout_width="45dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -529,6 +648,15 @@
                     android:text="--"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
+
+                <TextView
+                    android:id="@+id/textViewQA"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="--"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_marginLeft="32dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -537,9 +665,9 @@
 
                 <TextView
                     android:id="@+id/textView2"
-                    android:layout_width="65dp"
+                    android:layout_width="95dp"
                     android:layout_height="wrap_content"
-                    android:text="Defense"
+                    android:text="Team Defense"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
@@ -547,14 +675,6 @@
                     android:layout_width="45dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="--"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
-
-                <TextView
-                    android:id="@+id/textViewDT"
-                    android:layout_width="45dp"
-                    android:layout_height="wrap_content"
-                     android:gravity="center"
                     android:text="--"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 

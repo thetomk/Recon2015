@@ -38,21 +38,44 @@ public class Team {
 		// go get team data here and add to object
 		matchList = new ArrayList<TeamMatch>();
 		matchList = DynamoDBManager.getTeamList(ev,team);
-		
+        int total = 0;
+
 		for (TeamMatch curritem : matchList) {
-			
-			tp = (float) curritem.getTotes();
-			bp = (float) curritem.getBins();
-			np = (float) curritem.getNoodles();
-			gpct = (int) ((bp+np / (tp+bp+np))*100);
-			cpct = cpct + gpct;
+
+
+
+            if (curritem.getTotes() > 0) {total++;}
+            if (curritem.getBins() > 0) {total++;}
+            if (curritem.getNoodles() > 0) {total++;}
+
+            total = total + (curritem.getAutoBin()?1:0);
+            total = total + (curritem.getAutoTote()?1:0);
+            total = total + (curritem.getAutoStack()?1:0);
+            total = total + (curritem.getCoopStack()?1:0);
+            total = total + (curritem.getCoopTote()?1:0);
+            total = total + (curritem.getCarry()?1:0);
+            total = total + (curritem.getFast()?1:0);
+            total = total + (curritem.getStackBin()?1:0);
+            total = total + (curritem.getStackTote()?1:0);
+            total = total + (curritem.getDriver()?1:0);
+            total = total + (curritem.getPickable()?1:0);
+            total = total + (curritem.getNoodleBin()?1:0);
+            total = total + (curritem.getNoodleFloor()?1:0);
+            total = total + (curritem.getNoodleThrow()?1:0);
+            total = total + (curritem.getAutoMove()?1:0);
+            total = total + (curritem.getDied()?0:1);
+
+
 			mcount = mcount + 1;
 			allcomm = allcomm + curritem.getComments();
 		}
+
+        cpct = (int) (((float) total / (19.0*mcount))*100);
+
 		currTeam.setAllComments(allcomm);
-		if (mcount > 0) {
-			currTeam.setGoodPct((int) ((cpct/mcount)));
-		}
+
+		currTeam.setGoodPct(cpct);
+
         commentStrings = allcomm.split("; "); 
         countMap = new HashMap<String, Integer>();
         countStringOccurences(commentStrings);

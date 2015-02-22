@@ -27,9 +27,10 @@ public class SaveMatch extends Activity {
     int tcnum = 0;
     int bcnum = 0;
     int ncnum = 0;
+    int pts = 0;
     TextView tc;
     TextView bc;
-    TextView nc;
+    TextView pt;
     EditText comments;
     TextView matchNum;
     TextView teamNum;
@@ -63,7 +64,7 @@ public class SaveMatch extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_new_match_x);
+        setContentView(R.layout.activity_save_match);
 
         Intent intent = getIntent();
         origTeamMatch = (new Gson()).fromJson(intent.getStringExtra("TeamMatch"),DynamoDBManager.TeamMatch.class);
@@ -78,8 +79,8 @@ public class SaveMatch extends Activity {
         tc.setText(Integer.toString(tcnum));
         bc = (TextView)findViewById(R.id.binCount);
         bc.setText(Integer.toString(bcnum));
-        nc = (TextView)findViewById(R.id.noodleCount);
-        nc.setText(Integer.toString(ncnum));
+        pt = (TextView)findViewById(R.id.noodleCount);
+        pt.setText(Integer.toString(pts));
         comments = (EditText)findViewById(R.id.comments);
         matchNum = (TextView)findViewById(R.id.editMatch);
         teamNum = (TextView)findViewById(R.id.editTeam);
@@ -125,7 +126,7 @@ public class SaveMatch extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.settings_home_menu, menu);
+        getMenuInflater().inflate(R.menu.settings_clear_home_menu, menu);
         return true;
     }
 
@@ -141,6 +142,15 @@ public class SaveMatch extends Activity {
                 Intent hintent = new Intent(this, MainActivity.class);
                 startActivity(hintent);
                 return true;
+            case R.id.action_clear:
+                tc.setText("0");
+                tcnum = 0;
+                bc.setText("0");
+                bcnum = 0;
+                pt.setText("0");
+                pts = 0;
+                ncnum =0;
+                return true;
         }
         return false;
     }
@@ -148,22 +158,23 @@ public class SaveMatch extends Activity {
     public void countTote(View view) {
         tcnum++;
         tc.setText(Integer.toString(tcnum));
-        ncnum = ncnum + 2;
-        nc.setText(Integer.toString(ncnum));
+        pts = pts + 2;
+        pt.setText(Integer.toString(pts));
     }
     public void countBin(View view) {
         bcnum++;
         bc.setText(Integer.toString(bcnum));
         int stack = Integer.parseInt(spinner1.getSelectedItem().toString());
-        int noodle = (sw.isChecked()?1:0) * 6;
-        ncnum = ncnum + (stack * 4) + noodle;
-        nc.setText(Integer.toString(ncnum));
+        int noodle = (sw.isChecked()?1:0);
+        ncnum = ncnum + noodle;
+        pts = pts + (stack * 4) + (noodle*6);
+        pt.setText(Integer.toString(pts));
 
 
     }
     public void countNoodle(View view) {
         ncnum++;
-        nc.setText(Integer.toString(ncnum));
+        pt.setText(Integer.toString(pts));
     }
 
     public void saveData(View view) {
@@ -182,6 +193,8 @@ public class SaveMatch extends Activity {
         teamMatch.setTotes(tcnum);
         teamMatch.setBins(bcnum);
         teamMatch.setNoodles(ncnum);
+        teamMatch.setPoints(pts);
+        teamMatch.setMaxStack(Integer.parseInt(spinner2.getSelectedItem().toString()));
         teamMatch.setComments(comments.getText().toString());
         teamMatch.setCreateTime(formattedDate);
         teamMatch.setEventID(ev);
@@ -230,18 +243,10 @@ public class SaveMatch extends Activity {
 
             if (teamData == null) {
                 numMatches = 1;
-                oldpct = 0;
                 teamData = new DynamoDBManager.TeamData();
             } else {
                 numMatches = teamData.getNumMatches() + 1;
-//				oldpct = teamData.getGoodPct() * (numMatches - 1);
             }
-
-//			float gp = (float) teamMatch.getGoodPts();
-//			float bp = (float) teamMatch.getBadPts();
-//			float gpct = (gp / (gp+ bp));
-
-//			float newpct = (oldpct + gpct)/(numMatches);
 
 
             teamData.setEventID(ev);
@@ -250,6 +255,7 @@ public class SaveMatch extends Activity {
             teamData.setTotes(teamData.getTotes() + (teamMatch.getTotes()));
             teamData.setBins(teamData.getBins() + (teamMatch.getBins()));
             teamData.setNoodles(teamData.getNoodles() + (teamMatch.getNoodles()));
+            teamData.setPoints(teamData.getPoints() + (teamMatch.getPoints()));
             teamData.setAutoMove(teamData.getAutoMove() + (teamMatch.getAutoMove()?1:0));
             teamData.setAutoTote(teamData.getAutoTote() + (teamMatch.getAutoTote()?1:0));
             teamData.setAutoBin(teamData.getAutoBin() + (teamMatch.getAutoBin()?1:0));
@@ -266,6 +272,9 @@ public class SaveMatch extends Activity {
             teamData.setNoodleFloor(teamData.getNoodleFloor() + (teamMatch.getNoodleFloor()?1:0));
             teamData.setNoodleThrow(teamData.getNoodleThrow() + (teamMatch.getNoodleThrow()?1:0));
             teamData.setPickable(teamData.getPickable() + (teamMatch.getPickable()?1:0));
+            if (teamData.getMaxStack() < teamMatch.getMaxStack()) {
+                teamData.setMaxStack(teamMatch.getMaxStack());
+            }
 
             teamData.setCreator(createdby);
             teamData.setCreateTime(formattedDate);
@@ -280,10 +289,11 @@ public class SaveMatch extends Activity {
 
         tc.setText(Integer.toString(origTeamMatch.getTotes()));
         bc.setText(Integer.toString(origTeamMatch.getBins()));
-        nc.setText(Integer.toString(origTeamMatch.getNoodles()));
+        pt.setText(Integer.toString(origTeamMatch.getPoints()));
         tcnum = origTeamMatch.getTotes();
         bcnum = origTeamMatch.getBins();
         ncnum = origTeamMatch.getNoodles();
+        pts = origTeamMatch.getPoints();
         comments.setText(origTeamMatch.getComments());
         matchNum.setText(origTeamMatch.getMatchNum());
         teamNum.setText(origTeamMatch.getTeamNum());
@@ -303,6 +313,7 @@ public class SaveMatch extends Activity {
         bt_coopstack.setChecked(origTeamMatch.getCoopStack());
         bt_noodlethrow.setChecked(origTeamMatch.getNoodleThrow());
         bt_pickable.setChecked(origTeamMatch.getPickable());
+        spinner2.setSelection(((ArrayAdapter)spinner2.getAdapter()).getPosition(Integer.toString(origTeamMatch.getMaxStack())));
 
     }
 
@@ -325,6 +336,10 @@ public class SaveMatch extends Activity {
 */
 
         teamData.setNumMatches(numMatches);
+        teamData.setPoints(teamData.getPoints() - (origTeamMatch.getPoints()));
+        teamData.setTotes(teamData.getTotes() - (origTeamMatch.getTotes()));
+        teamData.setBins(teamData.getBins() - (origTeamMatch.getBins()));
+        teamData.setNoodles(teamData.getNoodles() - (origTeamMatch.getNoodles()));
         teamData.setAutoMove(teamData.getAutoMove() - (origTeamMatch.getAutoMove()?1:0));
         teamData.setAutoTote(teamData.getAutoTote() - (origTeamMatch.getAutoTote()?1:0));
         teamData.setAutoBin(teamData.getAutoBin() - (origTeamMatch.getAutoBin()?1:0));

@@ -248,6 +248,8 @@ public class DynamoDBManager {
 		private int totes;
 		private int bins;
 		private int noodles;
+        private int points;
+        private int maxstack;
 		private String comments;
 		private String createTime;
 		private String alliance;
@@ -307,14 +309,32 @@ public class DynamoDBManager {
 			this.totes = totes;
 		}
 		
-		@DynamoDBAttribute(attributeName = "noodles")
-		public int getNoodles() {
-			return noodles;
+		@DynamoDBAttribute(attributeName = "maxstack")
+		public int getMaxStack() {
+			return maxstack;
 		}
 
-		public void setNoodles(int noodles) {
-			this.noodles = noodles;
+		public void setMaxStack(int maxstack) {
+			this.maxstack = maxstack;
 		}
+
+        @DynamoDBAttribute(attributeName = "points")
+        public int getPoints() {
+            return points;
+        }
+
+        public void setPoints(int points) {
+            this.points = points;
+        }
+
+        @DynamoDBAttribute(attributeName = "noodles")
+        public int getNoodles() {
+            return noodles;
+        }
+
+        public void setNoodles(int noodles) {
+            this.noodles = noodles;
+        }
 
 		@DynamoDBAttribute(attributeName = "bins")
 		public int getBins() {
@@ -517,6 +537,7 @@ public class DynamoDBManager {
 		}
 		
 	}
+
 
 	
 	
@@ -901,10 +922,7 @@ public class DynamoDBManager {
 		private int died;
 		private int pickable;
 		private int numMatches;
-		private String teamName;
-		private String s3Bucket;
-		private String teamPhoto;
-		private String teamVideo;
+        private String teamName;
 		private int oAuto;
 		private int oTele;
 		private int oFoul;
@@ -915,6 +933,17 @@ public class DynamoDBManager {
 		private int dTotal;
 		private int numScores;
 		private int chosen;
+        private int maxstack;
+        private int points;
+        private int autoPts;
+        private int totePts;
+        private int binPts;
+        private int noodlePts;
+        private int coopPts;
+        private int rankedMatches;
+        private int rank;
+        private float   qualAvg;
+
 
 		
 
@@ -936,6 +965,7 @@ public class DynamoDBManager {
 		public void setGoodPct(float goodPct) {
 			this.goodPct = goodPct;
 		}
+
 		@DynamoDBAttribute(attributeName = "totes")
 		public int getTotes() {
 			return totes;
@@ -1155,33 +1185,7 @@ public class DynamoDBManager {
 			this.teamName = teamName;
 		}
 
-		@DynamoDBAttribute(attributeName = "s3Bucket")
-		public String getS3Bucket() {
-			return s3Bucket;
-		}
 
-		public void setS3Bucket(String s3Bucket) {
-			this.s3Bucket = s3Bucket;
-		}
-
-		@DynamoDBAttribute(attributeName = "teamPhoto")
-		public String getTeamPhoto() {
-			return teamPhoto;
-		}
-
-		public void setTeamPhoto(String teamPhoto) {
-			this.teamPhoto = teamPhoto;
-		}
-
-		@DynamoDBAttribute(attributeName = "teamVideo")
-		public String getTeamVideo() {
-			return teamVideo;
-		}
-
-		public void setTeamVideo(String teamVideo) {
-			this.teamVideo = teamVideo;
-		}
-		
 		@DynamoDBAttribute(attributeName = "oAuto")
 		public int getOAuto() {
 			return oAuto;
@@ -1263,14 +1267,100 @@ public class DynamoDBManager {
 			this.numScores = numScores;
 		}
 
-		@DynamoDBAttribute(attributeName = "chosen")
-		public int getChosen() {
-			return chosen;
-		}
+        @DynamoDBAttribute(attributeName = "chosen")
+        public int getChosen() {
+            return chosen;
+        }
 
-		public void setChosen(int chosen) {
-			this.chosen = chosen;
-		}
+        public void setChosen(int chosen) {
+            this.chosen = chosen;
+        }
+
+        @DynamoDBAttribute(attributeName = "maxstack")
+        public int getMaxStack() {
+            return maxstack;
+        }
+
+        public void setMaxStack(int maxstack) {
+            this.maxstack = maxstack;
+        }
+
+        @DynamoDBAttribute(attributeName = "points")
+        public int getPoints() {
+            return points;
+        }
+
+        public void setPoints(int points) {
+            this.points = points;
+        }
+
+        @DynamoDBAttribute(attributeName = "autoPts")
+        public int getAutoPts() {
+            return autoPts;
+        }
+
+        public void setAutoPts(int autoPts) {
+            this.autoPts = autoPts;
+        }
+        @DynamoDBAttribute(attributeName = "binPts")
+        public int getBinPts() {
+            return binPts;
+        }
+
+        public void setBinPts(int binPts) {
+            this.binPts = binPts;
+        }
+        @DynamoDBAttribute(attributeName = "totePts")
+        public int getTotePts() {
+            return totePts;
+        }
+
+        public void setTotePts(int totePts) {
+            this.totePts = totePts;
+        }
+        @DynamoDBAttribute(attributeName = "noodlePts")
+        public int getNoodlePts() {
+            return noodlePts;
+        }
+
+        public void setNoodlePts(int noodlePts) {
+            this.noodlePts = noodlePts;
+        }
+        @DynamoDBAttribute(attributeName = "coopPts")
+        public int getCoopPts() {
+            return coopPts;
+        }
+
+        public void setCoopPts(int coopPts) {
+            this.coopPts = coopPts;
+        }
+
+        @DynamoDBAttribute(attributeName = "rankedMatches")
+        public int getRankedMatches() {
+            return rankedMatches;
+        }
+
+        public void setRankedMatches(int rankedMatches) {
+            this.rankedMatches = rankedMatches;
+        }
+
+        @DynamoDBAttribute(attributeName = "rank")
+        public int getRank() {
+            return rank;
+        }
+
+        public void setRank(int rank) {
+            this.rank = rank;
+        }
+
+        @DynamoDBAttribute(attributeName = "qualAvg")
+        public float getQualAvg() {
+            return qualAvg;
+        }
+
+        public void setQualAvg(float qualAvg) {
+            this.qualAvg = qualAvg;
+        }
 	}
 
 

@@ -50,13 +50,36 @@ public class CustomArrayAdapter extends ArrayAdapter<TeamMatch> {
 
     ViewHolder holder = (ViewHolder) rowView.getTag();
     String s = matches.get(position).getKey();
-    Float tp = (float) matches.get(position).getTotes();
-    Float bp = (float) matches.get(position).getBins();
-    Float np = (float) matches.get(position).getNoodles();
+
+    int total = 0;
+
+    if (matches.get(position).getTotes() > 0) {total++;}
+    if (matches.get(position).getBins() > 0) {total++;}
+    if (matches.get(position).getNoodles() > 0) {total++;}
+
+    total = total + (matches.get(position).getAutoBin()?1:0);
+    total = total + (matches.get(position).getAutoTote()?1:0);
+    total = total + (matches.get(position).getAutoStack()?1:0);
+    total = total + (matches.get(position).getCoopStack()?1:0);
+    total = total + (matches.get(position).getCoopTote()?1:0);
+    total = total + (matches.get(position).getCarry()?1:0);
+    total = total + (matches.get(position).getFast()?1:0);
+    total = total + (matches.get(position).getStackBin()?1:0);
+    total = total + (matches.get(position).getStackTote()?1:0);
+    total = total + (matches.get(position).getDriver()?1:0);
+    total = total + (matches.get(position).getPickable()?1:0);
+    total = total + (matches.get(position).getNoodleBin()?1:0);
+    total = total + (matches.get(position).getNoodleFloor()?1:0);
+    total = total + (matches.get(position).getNoodleThrow()?1:0);
+    total = total + (matches.get(position).getAutoMove()?1:0);
+    total = total + (matches.get(position).getDied()?0:1);
+
+
     int goodpct = 0;
-    if (tp+bp+np >0) {
-    	goodpct = (int) (((bp+np) / (tp+bp+np))*100);
+    if (total >0) {
+    	goodpct = (int) (((float) total / 19.0)*100);
     } else { goodpct = 0;}
+
     holder.text.setText(s);
     holder.pb.setProgress(goodpct);
 

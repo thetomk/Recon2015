@@ -20,7 +20,7 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 
-public class Schedule extends Activity {
+public class ScheduleAdd extends Activity {
 	EditText r1,r2,r3,b1,b2,b3,mnum;
 	RadioGroup rg;
 	MatchSched matchSched = new MatchSched();

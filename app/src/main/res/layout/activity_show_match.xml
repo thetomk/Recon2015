@@ -80,7 +80,7 @@
         		        android:id="@+id/TextViewL01"
                 		android:layout_width="wrap_content"
        	    		    android:layout_height="wrap_content"
-        	        	android:layout_marginRight="11dp"
+        	        	android:layout_marginRight="20dp"
                 		android:text="Pickable"
                 		android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -126,7 +126,7 @@
                         android:id="@+id/TextViewL02"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="5dp"
+                        android:layout_marginRight="10dp"
                         android:text="AutoMove"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -172,7 +172,7 @@
                         android:id="@+id/TextViewL03"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="21dp"
+                        android:layout_marginRight="16dp"
                         android:text="AutoTote"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -193,7 +193,7 @@
                         android:id="@+id/TextViewL06"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="41dp"
+                        android:layout_marginRight="8dp"
                         android:text="StackBin"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -218,7 +218,7 @@
                         android:id="@+id/TextViewL04"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="18dp"
+                        android:layout_marginRight="25dp"
                         android:text="AutoBin"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -239,7 +239,7 @@
                         android:id="@+id/TextViewL07"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="12dp"
+                        android:layout_marginRight="8dp"
                         android:text="Carry"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -264,7 +264,7 @@
                         android:id="@+id/TextViewL08"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="17dp"
+                        android:layout_marginRight="10dp"
                         android:text="AutoStack"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -285,7 +285,7 @@
                         android:id="@+id/TextViewL09"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="32dp"
+                        android:layout_marginRight="8dp"
                         android:text="NoodBin"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -310,7 +310,7 @@
                         android:id="@+id/TextViewL10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="33dp"
+                        android:layout_marginRight="48dp"
                         android:text="Fast"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -331,7 +331,7 @@
                         android:id="@+id/TextViewL11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="33dp"
+                        android:layout_marginRight="8dp"
                         android:text="NoodFloor"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -403,7 +403,7 @@
                         android:id="@+id/TextViewL14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="27dp"
+                        android:layout_marginRight="5dp"
                         android:text="CoopStack"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -424,7 +424,7 @@
                         android:id="@+id/TextViewL15"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="40dp"
+                        android:layout_marginRight="8dp"
                         android:text="Died"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 

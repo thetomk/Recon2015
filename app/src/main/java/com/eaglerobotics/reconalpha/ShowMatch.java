@@ -111,30 +111,51 @@ private Context context;
 	         TextView tvL15 = (TextView) findViewById(R.id.TextViewL15);
 	         TextView tvL16 = (TextView) findViewById(R.id.TextViewL16);
 	         
-	         int tp=0,bp = 0, np=0;
+
 	         String allComments ="";
-	         bp = tmobj.getBins();
-	         tp = tmobj.getTotes();
-	         np = tmobj.getNoodles();
+
+
 	         allComments = tmobj.getComments();
 	         if (allComments != null && !allComments.isEmpty()) {
 	        	 allComments = allComments.replace("; ", "\n");
 	         }
 
-				int tot;
-				float gpct=0;
-				tot = tp + bp + np;
+            int total = 0;
 
-	         if (tot > 0) {
-	         	gpct = (((float)bp+np / (float)tot)*100);
-	         } 
+            if (tmobj.getTotes() > 0) {total++;}
+            if (tmobj.getBins() > 0) {total++;}
+            if (tmobj.getNoodles() > 0) {total++;}
+
+            total = total + (tmobj.getAutoBin()?1:0);
+            total = total + (tmobj.getAutoTote()?1:0);
+            total = total + (tmobj.getAutoStack()?1:0);
+            total = total + (tmobj.getCoopStack()?1:0);
+            total = total + (tmobj.getCoopTote()?1:0);
+            total = total + (tmobj.getCarry()?1:0);
+            total = total + (tmobj.getFast()?1:0);
+            total = total + (tmobj.getStackBin()?1:0);
+            total = total + (tmobj.getStackTote()?1:0);
+            total = total + (tmobj.getDriver()?1:0);
+            total = total + (tmobj.getPickable()?1:0);
+            total = total + (tmobj.getNoodleBin()?1:0);
+            total = total + (tmobj.getNoodleFloor()?1:0);
+            total = total + (tmobj.getNoodleThrow()?1:0);
+            total = total + (tmobj.getAutoMove()?1:0);
+            total = total + (tmobj.getDied()?0:1);
+
+
+            int goodpct = 0;
+            if (total >0) {
+                goodpct = (int) (((float) total / 19.0)*100);
+            } else { goodpct = 0;}
+
 	         
 //		    	Log.i("MatchSynopsis","Match for tp, bp, pct: "+tp+", "+bp+", "+gpct+":"+tot);
 
-	         synPb.setProgress((int) gpct);
+	         synPb.setProgress((int) goodpct);
 	         synTxt.setText(allComments);
-	         gdpts.setText(Integer.toString(bp+np));
-	         bdpts.setText(Integer.toString(tp));
+	         gdpts.setText(Integer.toString(total));
+	         bdpts.setText(Integer.toString(19));
 	         audit.setText(tmobj.getCreateTime() + " (" + tmobj.getCreator() + ")");
 	         tvR1.setText((tmobj.getPickable()?"Yes":"No"));
 	         tvR2.setText((tmobj.getAutoMove()?"Yes":"---"));
@@ -189,7 +210,7 @@ private Context context;
 	        startActivity(intent);
 	        return true; 
 	    case R.id.action_edit:
-	        Intent eintent = new Intent(this, NewMatch.class);
+	        Intent eintent = new Intent(this, SaveMatch.class);
 	        eintent.putExtra("TeamMatch",(new Gson()).toJson(tmobj));
 	        startActivity(eintent);
 	        finish();

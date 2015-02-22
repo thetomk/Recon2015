@@ -89,5 +89,6 @@
     <string name="title_activity_make_photo">MakePhoto</string>
     <string name="title_activity_team_list">TeamList</string>
     <string name="title_activity_save_match">SaveMatch</string>
+    <string name="title_activity_frc_data">FRC Rankings</string>
 
 </resources>

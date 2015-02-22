@@ -62,7 +62,7 @@
             android:label="@string/title_activity_prefs" >
         </activity>
         <activity
-            android:name=".Schedule"
+            android:name=".ScheduleAdd"
             android:label="@string/title_activity_schedule" >
         </activity>
         <activity
@@ -112,6 +112,14 @@
         <activity
             android:name=".SaveMatch"
             android:label="@string/title_activity_save_match" >
+        </activity>
+        <activity
+            android:name=".FRCRank"
+            android:label="@string/title_activity_frc_data" >
+        </activity>
+        <activity
+            android:name=".GetFRCResults"
+            android:label="@string/title_activity_schedule" >
         </activity>
     </application>
 

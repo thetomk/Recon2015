@@ -164,8 +164,10 @@ public class ListMatches extends Activity {
 	        	myOutWriter.append(",");	
 	        	myOutWriter.append(Integer.toString(citem.getBins()));
 	        	myOutWriter.append(",");
-	        	myOutWriter.append(Integer.toString(citem.getNoodles()));
-	        	myOutWriter.append(",");
+                myOutWriter.append(Integer.toString(citem.getNoodles()));
+                myOutWriter.append(",");
+                myOutWriter.append(Integer.toString(citem.getPoints()));
+                myOutWriter.append(",");
 	        	myOutWriter.append(Boolean.toString(citem.getPickable()));
 	        	myOutWriter.append(",");
 	        	myOutWriter.append(Boolean.toString(citem.getAutoMove()));

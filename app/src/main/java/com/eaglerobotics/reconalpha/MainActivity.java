@@ -1,10 +1,8 @@
 package com.eaglerobotics.reconalpha;
 
 import com.amazonaws.cognito.AWSClientMgr;
-import com.eaglerobotics.reconalpha.twitter.FRCResults;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -90,7 +88,7 @@ public class MainActivity extends Activity {
         startActivity(intent);
 	}
 	public void getFRCFMS(View view) {
-        Intent intent = new Intent(this, FRCResults.class);
+        Intent intent = new Intent(this, FRCRank.class);
         startActivity(intent);
 	}
 	
@@ -117,7 +115,7 @@ public class MainActivity extends Activity {
         startActivity(intent);
 	}
 	public void addSched(View view) {
-        Intent intent = new Intent(this, Schedule.class);
+        Intent intent = new Intent(this, GetFRCResults.class);
         startActivity(intent);
 	}
 

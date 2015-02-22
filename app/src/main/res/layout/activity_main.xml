@@ -130,7 +130,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:onClick="getFRCFMS"
-            android:text="Twitter"
+            android:text="Rank"
             android:width="120dp" />
 
     </LinearLayout>

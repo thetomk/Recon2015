@@ -83,16 +83,21 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 18 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="gson-2.3.1" level="project" />
-    <orderEntry type="library" exported="" name="support-v4-18.0.0" level="project" />
     <orderEntry type="library" exported="" name="commons-codec-1.8" level="project" />
-    <orderEntry type="library" exported="" name="aws-android-sdk-2.1.8-core" level="project" />
     <orderEntry type="library" exported="" name="twitter4j-async-3.0.5" level="project" />
-    <orderEntry type="library" exported="" name="aws-android-sdk-2.1.8-ddb-mapper" level="project" />
-    <orderEntry type="library" exported="" name="org.apache.commons.codec-1.8" level="project" />
+    <orderEntry type="library" exported="" name="aws-android-sdk-2.1.8-core" level="project" />
+    <orderEntry type="library" exported="" name="okio-1.0.0" level="project" />
     <orderEntry type="library" exported="" name="aws-android-sdk-2.1.8-ddb" level="project" />
     <orderEntry type="library" exported="" name="multidex-1.0.0" level="project" />
+    <orderEntry type="library" exported="" name="retrofit-1.9.0" level="project" />
+    <orderEntry type="library" exported="" name="javax.annotation-api-1.2" level="project" />
     <orderEntry type="library" exported="" name="twitter4j-core-3.0.5" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-18.0.0" level="project" />
+    <orderEntry type="library" exported="" name="gson-2.3.1" level="project" />
+    <orderEntry type="library" exported="" name="jackson-annotations-2.5.1" level="project" />
+    <orderEntry type="library" exported="" name="aws-android-sdk-2.1.8-ddb-mapper" level="project" />
+    <orderEntry type="library" exported="" name="org.apache.commons.codec-1.8" level="project" />
+    <orderEntry type="library" exported="" name="okhttp-2.0.0" level="project" />
   </component>
 </module>
 

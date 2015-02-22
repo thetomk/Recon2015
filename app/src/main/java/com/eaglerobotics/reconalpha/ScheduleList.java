@@ -216,7 +216,7 @@ public class ScheduleList extends Activity {
 	         if (pd!=null) {
 				pd.dismiss();
 			}
-	     	Toast.makeText(getApplicationContext(), "Schedule data exported", Toast.LENGTH_SHORT).show();
+	     	Toast.makeText(getApplicationContext(), "ScheduleAdd data exported", Toast.LENGTH_SHORT).show();
 		}
 	}
 */
@@ -409,7 +409,7 @@ public class ScheduleList extends Activity {
 	         if (pd!=null) {
 				pd.dismiss();
 			}
-	     	Toast.makeText(getApplicationContext(), "Schedule data exported", Toast.LENGTH_SHORT).show();
+	     	Toast.makeText(getApplicationContext(), "ScheduleAdd data exported", Toast.LENGTH_SHORT).show();
 		}
 	}
 	
