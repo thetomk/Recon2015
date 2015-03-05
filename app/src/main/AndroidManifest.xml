@@ -121,6 +121,10 @@
             android:name=".GetFRCResults"
             android:label="@string/title_activity_schedule" >
         </activity>
+        <activity
+            android:name=".GetFRCEvents"
+            android:label="@string/title_activity_get_frcevents" >
+        </activity>
     </application>
 
 </manifest>

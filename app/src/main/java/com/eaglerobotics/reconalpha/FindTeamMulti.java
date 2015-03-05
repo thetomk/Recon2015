@@ -139,19 +139,19 @@ public class FindTeamMulti extends Activity {
 			if (tb.isChecked()) { fields.add("Pickable");}
 			tb = (ToggleButton)findViewById(R.id.toggleOAuto);
 			if (tb.isChecked()) { fields.add("OAuto");}
-			tb = (ToggleButton)findViewById(R.id.toggleOTele);
-			if (tb.isChecked()) { fields.add("OTele");}
+			tb = (ToggleButton)findViewById(R.id.toggleOBin);
+			if (tb.isChecked()) { fields.add("OBin");}
 			tb = (ToggleButton)findViewById(R.id.toggleContrib);
 			if (tb.isChecked()) { fields.add("Contrib");}
-			tb = (ToggleButton)findViewById(R.id.toggleDTele);
-			if (tb.isChecked()) { fields.add("DTele");}
+			tb = (ToggleButton)findViewById(R.id.toggleOTote);
+			if (tb.isChecked()) { fields.add("OTote");}
 			
 		}
 
 		protected Void doInBackground(Void... inputs) {
 
 			int numMatches, rating, fieldCount, numScores;
-			float oauto=0, otele=0, ocontrib=0, dfoul=0, dtele=0;
+			float oauto=0, otote=0, ocontrib=0, obin=0, onood=0, tfinal=0, contrib=0;
 			float rawvalue=0;
 			
 			String ratingLabel;
@@ -162,23 +162,27 @@ public class FindTeamMulti extends Activity {
 			items = DynamoDBManager.getTeamList(ev);
 
 			for (TeamData curr : items) {
-				numScores = curr.getNumScores();
+				numScores = curr.getRankedMatches();
 
-				if ((float) curr.getOAuto()/(float) numScores > oauto) {
-					oauto = (float)curr.getOAuto()/(float) numScores;					
+				if ((float) curr.getAutoPts()/(float) numScores > oauto) {
+					oauto = (float)curr.getAutoPts()/(float) numScores;
 				}
-				if ((float) curr.getOTele()/(float) numScores > otele) {
-					otele = (float)curr.getOTele()/(float) numScores;					
+				if ((float) curr.getBinPts()/(float) numScores > obin) {
+					obin = (float)curr.getBinPts()/(float) numScores;
 				}
-				if ((float) curr.getDFoul()/(float) numScores > dfoul) {
-					dfoul = (float)curr.getDFoul()/(float) numScores;					
-				}
-				if ((float) curr.getDTele()/(float) numScores > dtele) {
-					dtele = (float)curr.getDTele()/(float) numScores;					
+                if ((float) curr.getTotePts()/(float) numScores > otote) {
+                    otote = (float)curr.getTotePts()/(float) numScores;
+                }
+                if ((float) curr.getNoodlePts()/(float) numScores > onood) {
+                    onood = (float)curr.getNoodlePts()/(float) numScores;
+                }
+				if ((float) curr.getOTotal()/(float) curr.getNumScores() > tfinal) {
+					tfinal = (float)curr.getOTotal()/(float) curr.getNumScores();
 				}
 
-				if ( (float)((curr.getOAuto()+curr.getOTele())-(curr.getDAuto()+curr.getDTele()))/(float)numScores > ocontrib) {
-					ocontrib = (float)((curr.getOAuto()+curr.getOTele())-(curr.getDAuto()+curr.getDTele()))/(float)numScores;					
+                /* Contribution is based on ratio of this team's pts  over total offense by all their alliances */
+				if ( (float)(curr.getAutoPts() + curr.getBinPts() + curr.getTotePts() + curr.getNoodlePts())/(float) (curr.getOTotal()) > ocontrib) {
+					ocontrib = (float)(curr.getAutoPts() + curr.getBinPts() + curr.getTotePts() + curr.getNoodlePts())/(float)curr.getOTotal();
 				}
 			}
 			
@@ -187,7 +191,7 @@ public class FindTeamMulti extends Activity {
 				TeamInfo calcTeam = new TeamInfo();
 				calcTeam.setTeamNum(curr.getTeamNum());
 				numMatches = curr.getNumMatches();
-				numScores = curr.getNumScores();
+				numScores = curr.getRankedMatches();
 				rawvalue = (float) 0;
 				if (numMatches > 0) {
 					if (fields.contains("Pickable")) {rawvalue += (float)curr.getPickable()/(float)numMatches;}
@@ -210,20 +214,18 @@ public class FindTeamMulti extends Activity {
 				}
 
 				if (fields.contains("OAuto")) {
-					rawvalue += ((float)curr.getOAuto()/(float)numScores) / oauto ;
+					rawvalue += ((float)curr.getAutoPts()/(float)numScores) / oauto ;
 				}
-				if (fields.contains("OTele")) {
-					rawvalue += ((float)curr.getOTele()/(float)numScores) / otele;
+				if (fields.contains("OTote")) {
+					rawvalue += ((float)curr.getTotePts()/(float)numScores) / otote;
 				}
 				if (fields.contains("Contrib")) {
-					rawvalue += ( (float)((curr.getOAuto()+curr.getOTele())-(curr.getDAuto()+curr.getDTele())) /(float)numScores) / ocontrib;
+					rawvalue += ( (float)(curr.getAutoPts() + curr.getBinPts() + curr.getTotePts() + curr.getNoodlePts())/(float) (curr.getOTotal())) / ocontrib;
 				}
-				if (fields.contains("DFoul")) {
-					rawvalue += 1 - (((float)curr.getDFoul()/(float)numScores) / dfoul);
+				if (fields.contains("Obin")) {
+					rawvalue += ((float)curr.getBinPts()/(float)numScores) / obin;
 				}
-				if (fields.contains("DTele")) {
-					rawvalue += 1 - (((float)curr.getDTele()/(float)numScores) / dtele);
-				}
+
 				
 				rating = (int) ((rawvalue / fieldCount)*100);
 				ratingLabel = rating + "%";

@@ -106,10 +106,4 @@
         </LinearLayout>
     </LinearLayout>
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="12dp"
-        android:id="@+id/imageView"
-        android:src="@drawable/horizline" />
-
 </LinearLayout>

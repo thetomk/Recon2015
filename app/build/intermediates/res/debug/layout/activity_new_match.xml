@@ -1,0 +1,333 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/backgroundgradient"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".NewMatch" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="Match #"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:text="Team #"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/editMatch"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.54"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTeam"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="0.69"
+            android:ems="10"
+            android:gravity="left"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:onClick="saveData"
+            android:text="Save" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/toteCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/binCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/noodleCount"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="110dp"
+            android:layout_height="85dp"
+            android:adjustViewBounds="true"
+            android:background="@color/colors"
+            android:cropToPadding="true"
+            android:onClick="countTote"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tote" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="110dp"
+            android:layout_height="85dp"
+            android:adjustViewBounds="true"
+            android:background="@color/colors"
+            android:cropToPadding="true"
+            android:onClick="countBin"
+            android:scaleType="centerInside"
+            android:src="@drawable/bin" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="110dp"
+            android:layout_height="85dp"
+            android:layout_gravity="left"
+            android:adjustViewBounds="true"
+            android:background="@color/colors"
+            android:cropToPadding="true"
+            android:onClick="countNoodle"
+            android:scaleType="centerInside"
+            android:src="@drawable/noodle" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/comments"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:gravity="left|top"
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" >
+
+        <ToggleButton
+            android:id="@+id/toggleAutoMove"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="Auto Move"
+            android:textOn="Auto Move"
+            android:textSize="10sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleAutoTote"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="Auto Tote"
+            android:textOn="Auto Tote"
+            android:textSize="10sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleAutoBin"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="Auto  Bin"
+            android:textOn="Auto  Bin"
+            android:textSize="10sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleAutoStack"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="x"
+            android:textOff="Auto Stack"
+            android:textOn="Auto Stack"
+            android:textSize="10sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleFast"
+            android:layout_width="60dp"
+            android:textSize="10sp"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="Fast Stack"
+            android:textOn="Fast Stack" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <ToggleButton
+            android:id="@+id/toggleStackTote"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="Stack Tote"
+            android:textOn="Stack Tote"
+            android:textSize="10sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleStackBin"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="Stack Bin"
+            android:textOn="Stack Bin"
+            android:textSize="10sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleCarry"
+            android:layout_width="60dp"
+            android:textSize="10sp"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="Carry Stack"
+            android:textOn="Carry Stack" />
+
+        <ToggleButton
+            android:id="@+id/toggleNoodleBin"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:textOff="Noodl Bin"
+            android:textOn="Noodl Bin"
+            android:textSize="10sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleDriver"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="Good Driver"
+            android:textOn="Good Driver"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <ToggleButton
+            android:id="@+id/toggleCoopTote"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="CoOp Tote"
+            android:textOn="CoOp Tote"
+            android:textSize="10sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleCoopStack"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="CoOp Stack"
+            android:textOn="CoOp Stack"
+            android:textSize="10sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleNoodleFloor"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="Noodl Floor"
+            android:textOn="Noodl Floor"
+            android:textSize="10sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleNoodleThrow"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="Noodl Throw"
+            android:textOn="Noodl Throw"
+            android:textSize="10sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleDied"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textColor="@color/Red"
+            android:textOff="Bad Robot"
+            android:textOn="Bad Robot"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <ToggleButton
+            android:id="@+id/togglePick"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton"
+            android:textAllCaps="false"
+            android:textOff="PICK?"
+            android:textOn="PICK"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/src/main/res/layout/activity_new_match.xml -->

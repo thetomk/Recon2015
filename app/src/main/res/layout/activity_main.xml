@@ -102,12 +102,12 @@
             android:width="120dp" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/button9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
-            android:onClick="editPrefs"
-            android:text="Preferences"
+            android:onClick="getFRCFMS"
+            android:text="Rank"
             android:width="120dp" />
 
     </LinearLayout>
@@ -123,16 +123,30 @@
             android:onClick="addSched"
             android:text="Add Sched"
             android:width="120dp" />
-
         <Button
-            android:id="@+id/button9"
+            android:id="@+id/button11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
-            android:onClick="getFRCFMS"
-            android:text="Rank"
+            android:onClick="showEvents"
+            android:text="Events"
             android:width="120dp" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="60dp">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="editPrefs"
+            android:text="Preferences"
+            android:width="120dp" />
     </LinearLayout>
 
 </LinearLayout>

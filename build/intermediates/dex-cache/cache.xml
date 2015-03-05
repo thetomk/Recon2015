@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk/1.9.17/dcebc2cdc5e710c5a79f9693d668740c01fdc3b3/aws-java-sdk-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dcebc2cdc5e710c5a79f9693d668740c01fdc3b3">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-1.9.17-395f6abcae66259e3e0174329adbc16b216125ca.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudwatchmetrics/1.9.17/4be622a49b95f29a4145e014c31b3188a4e95578/aws-java-sdk-cloudwatchmetrics-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4be622a49b95f29a4145e014c31b3188a4e95578">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-cloudwatchmetrics-1.9.17-a9673082ad8540e6b8756339553debeb1bee0f9e.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sts/1.9.17/d815f98df982aedc15c3d9e6959136d4756a8759/aws-java-sdk-sts-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d815f98df982aedc15c3d9e6959136d4756a8759">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-sts-1.9.17-bf5e34f8ea62aec2605c9e1bc295ca3155702760.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-config/1.9.17/6659eb87aad7cb383e934e3fbe587a0c39013e5d/aws-java-sdk-config-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6659eb87aad7cb383e934e3fbe587a0c39013e5d">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-config-1.9.17-fa6b476ae868b4ee6d3ef2963a6a3ae4200dc458.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.7/5599707a3eaad13e889f691b3af78c8c03842195/joda-time-2.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5599707a3eaad13e889f691b3af78c8c03842195">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/joda-time-2.7-e4db4f0a3065cbe64c7b7078e7ac7b942374bfc1.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-kms/1.9.17/ee4f93f1d45be21f5db4292dfe7f1c280f978a9b/aws-java-sdk-kms-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ee4f93f1d45be21f5db4292dfe7f1c280f978a9b">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-kms-1.9.17-8aed73e843a06a6a7c26b7b7cfd192ba8bb465bb.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-opsworks/1.9.17/4d27cfbb77f5a0058d94ec43ea982f0cd2885512/aws-java-sdk-opsworks-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4d27cfbb77f5a0058d94ec43ea982f0cd2885512">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-opsworks-1.9.17-8460d9f32552dd0360023aa941b3a01072eda4ee.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elasticbeanstalk/1.9.17/e5e195897c182f70085206932cf434a86c6c2e3d/aws-java-sdk-elasticbeanstalk-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e5e195897c182f70085206932cf434a86c6c2e3d">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-elasticbeanstalk-1.9.17-f4dfc74d08faffddb653e9a5f559bdf65cb779ba.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sns/1.9.17/cb4613530ea58fa4f9815eb378741e799f002f1a/aws-java-sdk-sns-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cb4613530ea58fa4f9815eb378741e799f002f1a">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-sns-1.9.17-4584fd89b0e2d22de455284aab3dd1a93cd12b4a.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-importexport/1.9.17/439444180bb0fee454c134987029a64656503f2d/aws-java-sdk-importexport-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="439444180bb0fee454c134987029a64656503f2d">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-importexport-1.9.17-cd5f44e54a186ccdcae9d4a2242285faf8ac676e.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ecs/1.9.17/75c3d521b5390efe539376ca8befacd33942df64/aws-java-sdk-ecs-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="75c3d521b5390efe539376ca8befacd33942df64">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-ecs-1.9.17-f749cb636264ccbc56b6e50e8f01341f6db0dd67.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-route53/1.9.17/4c78fc289db80f6a7e03d8283af2c7d3a74c2870/aws-java-sdk-route53-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c78fc289db80f6a7e03d8283af2c7d3a74c2870">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-route53-1.9.17-c2efa882e70974a0541ecd8f6b72a23c8c854018.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-rds/1.9.17/da9164e18dae70d062b7cd5b4b6147d1b9ae521f/aws-java-sdk-rds-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="da9164e18dae70d062b7cd5b4b6147d1b9ae521f">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-rds-1.9.17-baf02e11afa9c33e2af5cd0abcf51ca31f2a8b25.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/libs/twitter4j-core-3.0.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5999e1915b61b30c9fc40d5d1971906bb68aca6c">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/twitter4j-core-3.0.5-884d98a58425b3b211f07a44ba197040b51be493.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-s3/1.9.17/5e426444f33fc32f42f9eed751e5712f2ccb0e5a/aws-java-sdk-s3-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5e426444f33fc32f42f9eed751e5712f2ccb0e5a">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-s3-1.9.17-65bfd80e2ad9de9e450861d8fafb36c9bc1c5300.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudsearch/1.9.17/11d001c6a98c1bfe7a39f8315eacc631ebe5b4d5/aws-java-sdk-cloudsearch-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="11d001c6a98c1bfe7a39f8315eacc631ebe5b4d5">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-cloudsearch-1.9.17-3b22f283a591ddd4cd646e0d939c754411e50548.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elastictranscoder/1.9.17/f04ac4313c17c0b658560d57873d022414f8af5/aws-java-sdk-elastictranscoder-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0f04ac4313c17c0b658560d57873d022414f8af5">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-elastictranscoder-1.9.17-6d25b22a1686f3fdbfd559aadc85164ea0ce9664.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ec2/1.9.17/8bc300ba91d85bad54e4110166839293b7678e89/aws-java-sdk-ec2-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8bc300ba91d85bad54e4110166839293b7678e89">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-ec2-1.9.17-6385eb3c1beac463631b3c5931193c4f6a6e996a.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-dynamodb/1.9.17/acd92a5d96357febd256949230603ea42b0df926/aws-java-sdk-dynamodb-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="acd92a5d96357febd256949230603ea42b0df926">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-dynamodb-1.9.17-317739bcca0b0e3e4dee59f96a77174cea541246.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/gson-2.2.4-b8ec8a3f0027795de468500b552ee9ef7a843954.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cognitoidentity/1.9.17/9ea4a83fbb0568b0eb4303cbf871f2d309aed70c/aws-java-sdk-cognitoidentity-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9ea4a83fbb0568b0eb4303cbf871f2d309aed70c">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-cognitoidentity-1.9.17-2b34682354d7a69d7fbb8dfe4e1edce285d10391.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudhsm/1.9.17/d2644320737813ea43ee8c85377d06f4da2e3cb0/aws-java-sdk-cloudhsm-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d2644320737813ea43ee8c85377d06f4da2e3cb0">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-cloudhsm-1.9.17-5c487670240d199291248760b7f3b141d4b7c59d.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-datapipeline/1.9.17/2a3ad04352bff873394e270ba438f79492d607c2/aws-java-sdk-datapipeline-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2a3ad04352bff873394e270ba438f79492d607c2">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-datapipeline-1.9.17-fde5ed3fbad0130d85be117e88d00de8f29bebeb.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-logs/1.9.17/126c729d06e5566df675d16a05f4b49e08b388ad/aws-java-sdk-logs-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="126c729d06e5566df675d16a05f4b49e08b388ad">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-logs-1.9.17-278aa0c355292808b1561d71287dc0367d869e9a.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-support/1.9.17/314a22c5873b8705d0a2e891744fd8d33cfa5a08/aws-java-sdk-support-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="314a22c5873b8705d0a2e891744fd8d33cfa5a08">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-support-1.9.17-904d9f9d42557fc22d3b621f0567e3a963924683.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-storagegateway/1.9.17/1d8204458113faa02569a6c0134384633fd6b06d/aws-java-sdk-storagegateway-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1d8204458113faa02569a6c0134384633fd6b06d">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-storagegateway-1.9.17-a268f0b4e1e7f30345e413ec4c7d9048a98cb6dc.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elasticache/1.9.17/e34118e495d2958faa8c556eefddf4b4eb655a00/aws-java-sdk-elasticache-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e34118e495d2958faa8c556eefddf4b4eb655a00">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-elasticache-1.9.17-18f9163f0d8f7bfaa860c6ebbc170c8423d91aae.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-simpleworkflow/1.9.17/403bcd3a2b21c47b82b838293763332f0d78c6fe/aws-java-sdk-simpleworkflow-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="403bcd3a2b21c47b82b838293763332f0d78c6fe">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-simpleworkflow-1.9.17-97f1d16b6ce784f1ea89aafd40e3d8c628ce1ee9.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-simpledb/1.9.17/e6e54f35dbdb6e4b20aae68311d9f81c0f2fc8e9/aws-java-sdk-simpledb-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e6e54f35dbdb6e4b20aae68311d9f81c0f2fc8e9">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-simpledb-1.9.17-797393d02de6d6baf7669e4fed06e10b019d43a2.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-swf-libraries/1.9.17/797eb83292e39c4becdd0d4637937f0e85c11632/aws-java-sdk-swf-libraries-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="797eb83292e39c4becdd0d4637937f0e85c11632">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-swf-libraries-1.9.17-3d38284fae60878a641f6760f79c9136c9e504e7.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-kinesis/1.9.17/83dba720e73001bf6bd9e0f313150cf564753886/aws-java-sdk-kinesis-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="83dba720e73001bf6bd9e0f313150cf564753886">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-kinesis-1.9.17-59362e4b254287648aa2286d16829ea5279b2bf8.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudfront/1.9.17/802b73cb10e4d663e7094d09b921190a00a31203/aws-java-sdk-cloudfront-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="802b73cb10e4d663e7094d09b921190a00a31203">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-cloudfront-1.9.17-25b40a07fa5686228c6014dc1a130fdd6a9768d8.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-iam/1.9.17/89170132d57d349d06e49f85bd30e94167c37ce0/aws-java-sdk-iam-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="89170132d57d349d06e49f85bd30e94167c37ce0">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-iam-1.9.17-8a37313ec4ec75fdf26057728d9a52e5207f55b5.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/org.apache.directory.studio/org.apache.commons.codec/1.8/af243a2c8302b659b0afe9b4a2d8add1b7f964c0/org.apache.commons.codec-1.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="af243a2c8302b659b0afe9b4a2d8add1b7f964c0">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/org.apache.commons.codec-1.8-78d9fa11a4a33c74e8cc5ea7655e40b78d801712.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-lambda/1.9.17/d673c909519f96701747fc8f8dae382b70528f78/aws-java-sdk-lambda-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d673c909519f96701747fc8f8dae382b70528f78">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-lambda-1.9.17-af6a5b1c82449d03bf1a782cf16723e263c57f76.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudtrail/1.9.17/aed7f488e50709ee72aadc5728ee053f53fc12fd/aws-java-sdk-cloudtrail-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="aed7f488e50709ee72aadc5728ee053f53fc12fd">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-cloudtrail-1.9.17-f58a60ae065faee6fd08b0a775c9512bf139c07b.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.8/af3be3f74d25fc5163b54f56a0d394b462dafafd/commons-codec-1.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="af3be3f74d25fc5163b54f56a0d394b462dafafd">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/commons-codec-1.8-b88d79765449ea03ac85bc5c21c696f1a8a7d562.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudwatch/1.9.17/286eef8149f5454ae1a65c05e90c390df7438ef6/aws-java-sdk-cloudwatch-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="286eef8149f5454ae1a65c05e90c390df7438ef6">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-cloudwatch-1.9.17-b5748cdd8c7e6eb1a337dd4303be9c17f2917222.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.3.0/f5e853a20b60758922453d56f9ae1e64af5cb3da/jackson-annotations-2.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f5e853a20b60758922453d56f9ae1e64af5cb3da">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.3.0-0941841bc8399d8718d09b13afe6f7a748a8a3b3.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.3.2/c75edc740a6d8cb1cef6fa82fa594e0bce561916/jackson-databind-2.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c75edc740a6d8cb1cef6fa82fa594e0bce561916">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/jackson-databind-2.3.2-08105c75801aac63ca7c33a5e6fcc40a6a4e0b2d.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-autoscaling/1.9.17/2038d0bd1dbd49a7c8a0fd896d63bba2208ab8a/aws-java-sdk-autoscaling-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02038d0bd1dbd49a7c8a0fd896d63bba2208ab8a">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-autoscaling-1.9.17-08f31921a6fb025c16727b39cce6ad92f9768ae0.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-directconnect/1.9.17/fe00425fb005f724d31e00c031f85af518312f3b/aws-java-sdk-directconnect-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fe00425fb005f724d31e00c031f85af518312f3b">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-directconnect-1.9.17-ce6d12b6bede0da18b3b8be7a710409469018aaf.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-glacier/1.9.17/9ade049b03f346ffb66bcb6bb8d35b0b1f52da2e/aws-java-sdk-glacier-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9ade049b03f346ffb66bcb6bb8d35b0b1f52da2e">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-glacier-1.9.17-b3bee65f9f3ddde6466c5622cea5f7f78d0708c8.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudformation/1.9.17/2f3e51068db0fec67e2b307b7521fcce761857fa/aws-java-sdk-cloudformation-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2f3e51068db0fec67e2b307b7521fcce761857fa">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-cloudformation-1.9.17-ab65e4adda4bea54c4f21c245ea4de69dcdc5ad0.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/Desktop/Android/adt-bundle-mac-x86_64-20140321/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-4b40ae229d63fb592bdf247a0524d346af403db5.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-codedeploy/1.9.17/dc696966545672c1f6c8c429fad60f099d256fe1/aws-java-sdk-codedeploy-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dc696966545672c1f6c8c429fad60f099d256fe1">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-codedeploy-1.9.17-41f419f4e9ba465734b9a9827175f5164d4d8e2e.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/libs/twitter4j-async-3.0.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="555b786793313a57294cade0d520bada8a30c1d8">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/twitter4j-async-3.0.5-d7fdc48b20251ea8412321c160c272e05f4ab512.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elasticloadbalancing/1.9.17/7e799d1dedb485ce86943e7cb2c2207873ab507f/aws-java-sdk-elasticloadbalancing-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7e799d1dedb485ce86943e7cb2c2207873ab507f">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-elasticloadbalancing-1.9.17-804ac404d5124d8ac8e5eec693e9a602d8de4818.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sqs/1.9.17/18e4fc469776c10842c059eaa616b892449dffe1/aws-java-sdk-sqs-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="18e4fc469776c10842c059eaa616b892449dffe1">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-sqs-1.9.17-cb5327223d8f1ce12aba523ab4cee5f69c84deb9.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.3.2/559b70ac8a0d5cad611da4223137a920147201ba/jackson-core-2.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="559b70ac8a0d5cad611da4223137a920147201ba">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/jackson-core-2.3.2-91415a6d39ac1a2d6257c1eb44f50d02b95d5f2a.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cognitosync/1.9.17/dd21c840a7166968e52aff77759658325c262fbe/aws-java-sdk-cognitosync-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd21c840a7166968e52aff77759658325c262fbe">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-cognitosync-1.9.17-8001550451b1f97dbecc15ade16fb40b33d2ee93.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-redshift/1.9.17/4375223526630f066d8ab82bfbb983d1e0959a52/aws-java-sdk-redshift-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4375223526630f066d8ab82bfbb983d1e0959a52">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-redshift-1.9.17-b89fc2665d7ba0449920ba12b41fbd59587cf810.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ses/1.9.17/271f52b0a049a5c148da1fed1966fcc3706db01c/aws-java-sdk-ses-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="271f52b0a049a5c148da1fed1966fcc3706db01c">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-ses-1.9.17-09189bfff8be0e3a0e4b8c6b40e3b290a2e051d4.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-emr/1.9.17/faf77ec5eb7bec9106bba3093d236d907025d94c/aws-java-sdk-emr-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="faf77ec5eb7bec9106bba3093d236d907025d94c">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-emr-1.9.17-54d5633a4a6b16377849ad19b1a572cacfe53f36.jar" />
+    </item>
+    <item
+        jar="/Users/tkotlarek/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-core/1.9.17/76300e29ab8ace83abfbdfd72bc104f7432325de/aws-java-sdk-core-1.9.17.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="76300e29ab8ace83abfbdfd72bc104f7432325de">
+        <dex dex="/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/pre-dexed/debug/aws-java-sdk-core-1.9.17-e5dcd0219ce56634b11903983b949f90457efa9a.jar" />
+    </item>
+
+</items>

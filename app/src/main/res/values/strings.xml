@@ -90,5 +90,6 @@
     <string name="title_activity_team_list">TeamList</string>
     <string name="title_activity_save_match">SaveMatch</string>
     <string name="title_activity_frc_data">FRC Rankings</string>
+    <string name="title_activity_get_frcevents">getFRCEvents</string>
 
 </resources>

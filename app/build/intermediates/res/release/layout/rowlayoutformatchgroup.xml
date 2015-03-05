@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:background="#444444"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:hint="20sp"
+            android:text="@+id/label"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/progbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.85"
+                android:max="100"
+                android:progressDrawable="@drawable/progress_draw_green" />
+
+            <TextView
+                android:id="@+id/comments"
+                android:layout_width="199dp"
+                android:layout_height="37dp"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/src/main/res/layout/rowlayoutformatchgroup.xml -->

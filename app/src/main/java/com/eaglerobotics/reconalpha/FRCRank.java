@@ -6,6 +6,8 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -74,7 +76,7 @@ public class FRCRank extends Activity {
     public void getRankAPI() {
         RestAdapter restAdapter = new RestAdapter.Builder()
                 .setLogLevel(RestAdapter.LogLevel.FULL)
-                .setEndpoint("http://private-anon-516e78132-frcevents.apiary-mock.com/api/v1.0/")
+                .setEndpoint("https://frc-api.usfirst.org/api/v1.0/")
                 .build();
 
         FRCAPIRankingInterface rankingService = restAdapter.create(FRCAPIRankingInterface.class);
@@ -93,13 +95,28 @@ public class FRCRank extends Activity {
         });
     }
 
-    public void consumeApiData(FRCRankings rankingData) {
+    public void consumeApiData(final FRCRankings rankingData) {
         if (rankingData != null) {
             ListView lv = (ListView) findViewById(R.id.rankListView);
 
             rlist = rankingData.getRankings();
             arrayAdapter = new CustomRankAdapter(FRCRank.this, rankingData.getRankings());
             lv.setAdapter(arrayAdapter);
+            lv.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view,
+                                        int position, long id) {
+
+                    Intent intent = new Intent(FRCRank.this, ViewTeam.class);
+                    String t = Integer.toString(rankingData.getRankings().get(position).getTeamNumber());
+                    intent.putExtra("team",t);
+                    startActivity(intent);
+
+                }
+
+            });
+
         }
     }
 

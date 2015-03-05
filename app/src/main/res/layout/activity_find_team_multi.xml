@@ -209,22 +209,21 @@
             android:textOn="Off Auto" />
 
         <ToggleButton
-            android:id="@+id/toggleOTele"
+            android:id="@+id/toggleOTote"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:text="ToggleButton"
             android:textSize="10sp"
-            android:textOff="Off Tele"
-            android:textOn="Off Tele" />
+            android:textOff="Off Tote"
+            android:textOn="Off Tote" />
 
         <ToggleButton
-            android:id="@+id/toggleDTele"
+            android:id="@+id/toggleOBin"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:text="ToggleButton"
-            android:textColor="@color/Red"
-            android:textOff="Def Tele"
-            android:textOn="Def Tele"
+            android:textOff="Off Bin"
+            android:textOn="Off Bin"
             android:textSize="10sp" />
 
     </LinearLayout>

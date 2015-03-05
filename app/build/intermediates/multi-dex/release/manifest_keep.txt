@@ -1,0 +1,35 @@
+-keep class null {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.eaglerobotics.reconalpha.Splash { <init>(); }
+-keep class com.eaglerobotics.reconalpha.MainActivity { <init>(); }
+-keep class com.eaglerobotics.reconalpha.NewMatch { <init>(); }
+-keep class com.eaglerobotics.reconalpha.ListMatches { <init>(); }
+-keep class com.eaglerobotics.reconalpha.ViewTeam { <init>(); }
+-keep class com.eaglerobotics.reconalpha.twitter.FRCResults { <init>(); }
+-keep class com.eaglerobotics.reconalpha.SettingsActivity { <init>(); }
+-keep class com.eaglerobotics.reconalpha.ShowMatch { <init>(); }
+-keep class com.eaglerobotics.reconalpha.Prefs { <init>(); }
+-keep class com.eaglerobotics.reconalpha.ScheduleAdd { <init>(); }
+-keep class com.eaglerobotics.reconalpha.ScoutMatch { <init>(); }
+-keep class com.eaglerobotics.reconalpha.FindComment { <init>(); }
+-keep class com.eaglerobotics.reconalpha.NextMatch { <init>(); }
+-keep class com.eaglerobotics.reconalpha.ScheduleList { <init>(); }
+-keep class com.eaglerobotics.reconalpha.TeamScheduleList { <init>(); }
+-keep class com.eaglerobotics.reconalpha.ScoutOurMatch { <init>(); }
+-keep class com.eaglerobotics.reconalpha.Admin { <init>(); }
+-keep class com.eaglerobotics.reconalpha.FindTeam { <init>(); }
+-keep class com.eaglerobotics.reconalpha.pit.PitScouting { <init>(); }
+-keep class com.eaglerobotics.reconalpha.FindTeamMulti { <init>(); }
+-keep class com.eaglerobotics.reconalpha.TeamList { <init>(); }
+-keep class com.eaglerobotics.reconalpha.SaveMatch { <init>(); }
+-keep class com.eaglerobotics.reconalpha.FRCRank { <init>(); }
+-keep class com.eaglerobotics.reconalpha.GetFRCResults { <init>(); }
+-keep class com.eaglerobotics.reconalpha.GetFRCEvents { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

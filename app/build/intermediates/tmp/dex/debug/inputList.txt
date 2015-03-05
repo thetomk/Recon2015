@@ -1,0 +1,1 @@
+/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/build/intermediates/multi-dex/debug/allclasses.jar

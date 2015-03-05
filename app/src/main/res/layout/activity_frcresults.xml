@@ -10,7 +10,7 @@
     tools:context=".FRCResults" >
 
     <ListView
-        android:id="@+id/TweetList"
+        android:id="@+id/schedListView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"

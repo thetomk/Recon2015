@@ -119,4 +119,8 @@ public class MainActivity extends Activity {
         startActivity(intent);
 	}
 
+    public void showEvents(View view) {
+        Intent intent = new Intent(this, GetFRCEvents.class);
+        startActivity(intent);
+    }
 }

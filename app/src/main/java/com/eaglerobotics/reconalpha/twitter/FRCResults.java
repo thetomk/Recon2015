@@ -266,7 +266,7 @@ public class FRCResults extends Activity {
 			Collections.sort(items, new byMatchTypeComparator());
 			
 			// send the tweets to the adapter for rendering
-			ListView lv = (ListView) findViewById(R.id.TweetList);
+			ListView lv = (ListView) findViewById(R.id.schedListView);
 //			ArrayAdapter<Tweet> adapter = new ArrayAdapter<Tweet>(FRCResults.this, android.R.layout.simple_list_item_1, twits);
 	        ArrayAdapter<MatchSched> arrayAdapter = new CustomSchedAdapter(FRCResults.this, items);
 			lv.setAdapter(arrayAdapter);

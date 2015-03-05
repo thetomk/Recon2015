@@ -9,7 +9,7 @@ import javax.annotation.Generated;
 @Generated("org.jsonschema2pojo")
 public class SchedTeam {
 
-    private int number;
+    private int teamNumber;
     private String station;
     private boolean surrogate;
     private boolean dq;
@@ -20,17 +20,17 @@ public class SchedTeam {
      * @return
      * The number
      */
-    public int getNumber() {
-        return number;
+    public int getTeamNumber() {
+        return teamNumber;
     }
 
     /**
      *
-     * @param number
-     * The number
+     * @param teamNumber
+     * The teamNumber
      */
-    public void setNumber(int number) {
-        this.number = number;
+    public void setTeamNumber(int teamNumber) {
+        this.teamNumber = teamNumber;
     }
 
     /**

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="comment_arrays">
+        <item>Choose a comment:</item>
+        <item>HighGoal</item>
+        <item>LowGoal</item>
+        <item>Defense</item>
+        <item>Truss</item>
+        <item>Assists</item>
+        <item>Catch</item>
+        <item>Push</item>
+        <item>FloorPick</item>
+        <item>Auto</item>
+        <item>Fast</item>
+    </string-array>
+    <!-- From: file:/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/src/main/res/values/strings_activity_settings.xml -->
+    <eat-comment/>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+    <!-- From: file:/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="robotype_arrays">
+        <item>Choose robot type:</item>
+        <item>Herder</item>
+        <item>Catcher</item>
+        <item>Shooter</item>
+        <item>Shooter/Catcher</item>
+    </string-array>
+    <string-array name="sort_strings">
+        <item>Sort by:</item>
+        <item>Rating</item>
+        <item>Pickable</item>
+        <item>High Goal</item>
+        <item>Fast</item>
+        <item>Defender</item>
+        <item>Truss</item>
+        <item>Inbound</item>
+        <item>Catcher</item>
+        <item>Auto Move</item>
+        <item>Auto 1 Ball</item>
+        <item>Auto 2 Ball</item>
+        <item>Driver</item>
+        <item>No Show</item>
+        <item>Flimsy</item>
+        <item>Pushable</item>
+        <item>Died</item>
+    </string-array>
+    <string-array name="stack_height">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <!-- From: file:/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="Red">#A03</color>
+    <color name="black_overlay">#66000000</color>
+    <declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/></declare-styleable>
+    <!-- From: file:/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="toggle_text_size">10dp</dimen>
+    <dimen name="widget_margin">8dp</dimen>
+    <!-- From: file:/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_edit">Edit</string>
+    <string name="action_export">Export Data</string>
+    <string name="action_home">Home</string>
+    <string name="action_photo">See Photo</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_schedsave">Save as Schedule</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_name">Recon 2015</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="hello_world">Hello World</string>
+    <string name="list_prompt">Choose a comment</string>
+    <!-- From: file:/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/src/main/res/values/strings_activity_settings.xml -->
+    <eat-comment/>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history</string>
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <!-- From: file:/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_activity_blah">Blah</string>
+    <string name="title_activity_find_comment">FindComment</string>
+    <string name="title_activity_find_team">FindTeam</string>
+    <string name="title_activity_frc_data">FRC Rankings</string>
+    <string name="title_activity_frcresults">FRCResults</string>
+    <string name="title_activity_get_frcevents">getFRCEvents</string>
+    <string name="title_activity_make_photo">MakePhoto</string>
+    <string name="title_activity_match_list">MatchListActivity</string>
+    <string name="title_activity_new_match">New Match</string>
+    <string name="title_activity_next_match">NextMatch</string>
+    <string name="title_activity_pit_scouting">Pit Scouting</string>
+    <string name="title_activity_prefs">Prefs</string>
+    <string name="title_activity_save_match">SaveMatch</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="title_activity_schedule_list">ScheduleList</string>
+    <string name="title_activity_scout_match">ScoutMatch</string>
+    <string name="title_activity_scout_our_match">ScoutOurMatch</string>
+    <!-- From: file:/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/src/main/res/values/strings_activity_settings.xml -->
+    <eat-comment/>
+    <string name="title_activity_settings">Settings</string>
+    <!-- From: file:/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_show_match">ShowMatch</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_team">TeamActivity</string>
+    <string name="title_activity_team_list">TeamList</string>
+    <string name="title_activity_team_schedule_list">TeamScheduleList</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <!-- From: file:/Users/tkotlarek/AndroidstudioProjects/Recon2015/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+    <style name="ButtonBarButton"/>
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+</resources>

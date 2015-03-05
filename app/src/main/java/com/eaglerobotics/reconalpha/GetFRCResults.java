@@ -113,7 +113,7 @@ public class GetFRCResults extends Activity {
     public void getScheduleAPI() {
         RestAdapter restAdapter = new RestAdapter.Builder()
                 .setLogLevel(RestAdapter.LogLevel.FULL)
-                .setEndpoint("http://private-anon-516e78132-frcevents.apiary-mock.com/api/v1.0/")
+                .setEndpoint("https://frc-api.usfirst.org/api/v1.0/")
                 .build();
 
         FRCAPIScheduleInterface rankingService = restAdapter.create(FRCAPIScheduleInterface.class);
@@ -252,22 +252,22 @@ public class GetFRCResults extends Activity {
                 newSched.setBlueAuto(sitem.getScoreBlueAuto());
                 for (SchedTeam st : sitem.getTeams()) {
                     if (st.getStation().equals("Blue1")) {
-                        newSched.setBlue1(Integer.toString(st.getNumber()));
+                        newSched.setBlue1(Integer.toString(st.getTeamNumber()));
                     }
                     else if (st.getStation().equals("Blue2")) {
-                        newSched.setBlue2(Integer.toString(st.getNumber()));
+                        newSched.setBlue2(Integer.toString(st.getTeamNumber()));
                     }
                     else if (st.getStation().equals("Blue3")) {
-                        newSched.setBlue3(Integer.toString(st.getNumber()));
+                        newSched.setBlue3(Integer.toString(st.getTeamNumber()));
                     }
                     else if (st.getStation().equals("Red1")) {
-                        newSched.setRed1(Integer.toString(st.getNumber()));
+                        newSched.setRed1(Integer.toString(st.getTeamNumber()));
                     }
                     else if (st.getStation().equals("Red2")) {
-                        newSched.setRed2(Integer.toString(st.getNumber()));
+                        newSched.setRed2(Integer.toString(st.getTeamNumber()));
                     }
                     else if (st.getStation().equals("Red3")) {
-                        newSched.setRed3(Integer.toString(st.getNumber()));
+                        newSched.setRed3(Integer.toString(st.getTeamNumber()));
                     }
                 }
 
@@ -275,7 +275,7 @@ public class GetFRCResults extends Activity {
             }
 
 
-            ListView lv = (ListView) findViewById(R.id.TweetList);
+            ListView lv = (ListView) findViewById(id.schedListView);
 
             ArrayAdapter<MatchSched> arrayAdapter = new CustomSchedAdapter(GetFRCResults.this, items);
             lv.setAdapter(arrayAdapter);

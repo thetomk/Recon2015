@@ -621,7 +621,7 @@
                     android:id="@+id/textView1"
                     android:layout_width="95dp"
                     android:layout_height="wrap_content"
-                    android:text="Team Offense"
+                    android:text="Team Off"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
@@ -667,7 +667,7 @@
                     android:id="@+id/textView2"
                     android:layout_width="95dp"
                     android:layout_height="wrap_content"
-                    android:text="Team Defense"
+                    android:text="Team Def"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
