@@ -1361,6 +1361,8 @@ public class DynamoDBManager {
         public void setQualAvg(float qualAvg) {
             this.qualAvg = qualAvg;
         }
+
+
 	}
 
 

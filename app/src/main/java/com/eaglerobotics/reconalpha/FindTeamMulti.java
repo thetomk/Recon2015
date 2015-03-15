@@ -152,6 +152,7 @@ public class FindTeamMulti extends Activity {
 
 			int numMatches, rating, fieldCount, numScores;
 			float oauto=0, otote=0, ocontrib=0, obin=0, onood=0, tfinal=0, contrib=0;
+            float teamcontrib=0, alliancecontrib=0;
 			float rawvalue=0;
 			
 			String ratingLabel;
@@ -164,26 +165,42 @@ public class FindTeamMulti extends Activity {
 			for (TeamData curr : items) {
 				numScores = curr.getRankedMatches();
 
-				if ((float) curr.getAutoPts()/(float) numScores > oauto) {
-					oauto = (float)curr.getAutoPts()/(float) numScores;
-				}
-				if ((float) curr.getBinPts()/(float) numScores > obin) {
-					obin = (float)curr.getBinPts()/(float) numScores;
-				}
-                if ((float) curr.getTotePts()/(float) numScores > otote) {
-                    otote = (float)curr.getTotePts()/(float) numScores;
+                if (numScores > 0) {
+                    if ((float) curr.getAutoPts() / (float) numScores > oauto) {
+                        oauto = (float) curr.getAutoPts() / (float) numScores;
+                    }
+                    if ((float) curr.getBinPts() / (float) numScores > obin) {
+                        obin = (float) curr.getBinPts() / (float) numScores;
+                    }
+                    if ((float) curr.getTotePts() / (float) numScores > otote) {
+                        otote = (float) curr.getTotePts() / (float) numScores;
+                    }
+                    if ((float) curr.getNoodlePts() / (float) numScores > onood) {
+                        onood = (float) curr.getNoodlePts() / (float) numScores;
+                    }
+                    if ((float) curr.getOTotal() / (float) curr.getNumScores() > tfinal) {
+                        tfinal = (float) curr.getOTotal() / (float) curr.getNumScores();
+                    }
                 }
-                if ((float) curr.getNoodlePts()/(float) numScores > onood) {
-                    onood = (float)curr.getNoodlePts()/(float) numScores;
-                }
-				if ((float) curr.getOTotal()/(float) curr.getNumScores() > tfinal) {
-					tfinal = (float)curr.getOTotal()/(float) curr.getNumScores();
-				}
-
-                /* Contribution is based on ratio of this team's pts  over total offense by all their alliances */
+                /* Contribution is based on ratio of this team's pts  over total offense by all their alliances
 				if ( (float)(curr.getAutoPts() + curr.getBinPts() + curr.getTotePts() + curr.getNoodlePts())/(float) (curr.getOTotal()) > ocontrib) {
 					ocontrib = (float)(curr.getAutoPts() + curr.getBinPts() + curr.getTotePts() + curr.getNoodlePts())/(float)curr.getOTotal();
 				}
+				*/
+                if (curr.getNumMatches() >0) {
+                    teamcontrib = (float) curr.getPoints() / (float) curr.getNumMatches();
+                } else {
+                    teamcontrib = (float) 0;
+                }
+
+                if (numScores > 0) {
+                    alliancecontrib = (float) curr.getOTotal() / (float) numScores;
+
+                    if ((teamcontrib / alliancecontrib) > ocontrib) {
+                        ocontrib = teamcontrib / alliancecontrib;
+                    }
+                }
+
 			}
 			
 			
@@ -192,7 +209,9 @@ public class FindTeamMulti extends Activity {
 				calcTeam.setTeamNum(curr.getTeamNum());
 				numMatches = curr.getNumMatches();
 				numScores = curr.getRankedMatches();
+
 				rawvalue = (float) 0;
+                teamcontrib = (float) 0;
 				if (numMatches > 0) {
 					if (fields.contains("Pickable")) {rawvalue += (float)curr.getPickable()/(float)numMatches;}
 					if (fields.contains("Fast")) {rawvalue += (float)curr.getFast()/(float)numMatches;} 
@@ -210,21 +229,36 @@ public class FindTeamMulti extends Activity {
 					if (fields.contains("CoopStack")) {rawvalue += ((float)curr.getCoopStack()/(float)numMatches);}  
 					if (fields.contains("NoodleFloor")) {rawvalue += ((float)curr.getNoodleFloor()/(float)numMatches);}  
 					if (fields.contains("NoodleThrow")) {rawvalue += ((float)curr.getNoodleThrow()/(float)numMatches);}  
-					if (fields.contains("Rating")) {rawvalue += curr.getGoodPct();}					
+					if (fields.contains("Rating")) {rawvalue += curr.getGoodPct();}
+                    if (fields.contains("Contrib")) {
+                        teamcontrib = (float) curr.getPoints() / (float) curr.getNumMatches();
+
+                    }
 				}
 
-				if (fields.contains("OAuto")) {
-					rawvalue += ((float)curr.getAutoPts()/(float)numScores) / oauto ;
-				}
-				if (fields.contains("OTote")) {
-					rawvalue += ((float)curr.getTotePts()/(float)numScores) / otote;
-				}
-				if (fields.contains("Contrib")) {
-					rawvalue += ( (float)(curr.getAutoPts() + curr.getBinPts() + curr.getTotePts() + curr.getNoodlePts())/(float) (curr.getOTotal())) / ocontrib;
-				}
-				if (fields.contains("Obin")) {
-					rawvalue += ((float)curr.getBinPts()/(float)numScores) / obin;
-				}
+                if (numScores >0) {
+                    if (fields.contains("OAuto")) {
+                        if (oauto > 0) {
+                            rawvalue += ((float) curr.getAutoPts() / (float) numScores) / oauto;
+                        }
+                    }
+                    if (fields.contains("OTote")) {
+                        if (otote > 0) {
+                            rawvalue += ((float) curr.getTotePts() / (float) numScores) / otote;
+                        }
+                    }
+                    if (fields.contains("Contrib")) {
+                        alliancecontrib = (float) curr.getOTotal() / (float) numScores;
+                        if (ocontrib > 0) {
+                            rawvalue += (teamcontrib / alliancecontrib) / ocontrib;
+                        }
+                    }
+                    if (fields.contains("OBin")) {
+                        if (obin > 0) {
+                            rawvalue += ((float) curr.getBinPts() / (float) numScores) / obin;
+                        }
+                    }
+                }
 
 				
 				rating = (int) ((rawvalue / fieldCount)*100);
@@ -233,6 +267,7 @@ public class FindTeamMulti extends Activity {
 
 				calcTeam.setRating(rating);
 				calcTeam.setRatingLabel(ratingLabel);
+                calcTeam.setRank(curr.getRank());
 				
 				teams.add(calcTeam);
 			}

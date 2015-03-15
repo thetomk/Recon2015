@@ -196,7 +196,8 @@ public class ViewTeam extends Activity {
              TextView tvR20 = (TextView) findViewById(R.id.TextViewR20);
              TextView tvR21 = (TextView) findViewById(R.id.TextViewR21);
              TextView tvR23 = (TextView) findViewById(R.id.TextViewR23);
-             TextView tvR24 = (TextView) findViewById(R.id.TextViewR24);
+            TextView tvR24 = (TextView) findViewById(R.id.TextViewR24);
+            TextView tvR25 = (TextView) findViewById(R.id.TextViewR25);
 
 	         TextView tvL1 = (TextView) findViewById(R.id.TextViewL01);
 	         TextView tvL2 = (TextView) findViewById(R.id.TextViewL02);
@@ -220,7 +221,8 @@ public class ViewTeam extends Activity {
              TextView tvL20 = (TextView) findViewById(R.id.TextViewL20);
              TextView tvL21 = (TextView) findViewById(R.id.TextViewL21);
              TextView tvL23 = (TextView) findViewById(R.id.TextViewL23);
-             TextView tvL24 = (TextView) findViewById(R.id.TextViewL24);
+            TextView tvL24 = (TextView) findViewById(R.id.TextViewL24);
+            TextView tvL25 = (TextView) findViewById(R.id.TextViewL25);
 
 	         TextView tvOA = (TextView) findViewById(R.id.textViewOA);
 //	         TextView tvOT = (TextView) findViewById(R.id.textViewOT);

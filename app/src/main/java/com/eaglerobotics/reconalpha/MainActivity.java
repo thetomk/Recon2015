@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
 			btn.setVisibility(View.INVISIBLE);
 			btn=(Button)findViewById(R.id.button8);
 			btn.setVisibility(View.INVISIBLE);
-			btn=(Button)findViewById(R.id.button9);
+			btn=(Button)findViewById(R.id.button11);
 			btn.setVisibility(View.INVISIBLE);
 
 		}
@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
 		if (perms.equals("recon")) {
 			btn=(Button)findViewById(R.id.button8);
 			btn.setVisibility(View.INVISIBLE);
-			btn=(Button)findViewById(R.id.button9);
+			btn=(Button)findViewById(R.id.button11);
 			btn.setVisibility(View.INVISIBLE);
 		}
 		

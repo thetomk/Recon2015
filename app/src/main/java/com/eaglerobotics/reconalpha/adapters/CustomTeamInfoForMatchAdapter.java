@@ -25,6 +25,7 @@ public class CustomTeamInfoForMatchAdapter extends ArrayAdapter<TeamInfo> {
     public TextView team;
     public TextView comms;
     public ProgressBar pb;
+    public TextView rank;
   }
 
   public CustomTeamInfoForMatchAdapter(Activity context, ArrayList<TeamInfo> labels) {
@@ -44,6 +45,7 @@ public class CustomTeamInfoForMatchAdapter extends ArrayAdapter<TeamInfo> {
       viewHolder.team = (TextView) rowView.findViewById(R.id.team);
       viewHolder.comms = (TextView) rowView.findViewById(R.id.textComments);
       viewHolder.pb = (ProgressBar) rowView.findViewById(R.id.progbar);
+      viewHolder.rank = (TextView) rowView.findViewById(id.rank);
 
       rowView.setTag(viewHolder);
     }
@@ -52,10 +54,12 @@ public class CustomTeamInfoForMatchAdapter extends ArrayAdapter<TeamInfo> {
     String s = teams.get(position).getTeamNum();
     String ac = teams.get(position).getSynopsis();
     int goodpct = teams.get(position).getGoodPct();
+    String rk = Integer.toString(teams.get(position).getRank());
 
     holder.team.setText(s);
     holder.comms.setText(ac);
     holder.pb.setProgress(goodpct);
+    holder.rank.setText("("+rk+")");
     
 
 

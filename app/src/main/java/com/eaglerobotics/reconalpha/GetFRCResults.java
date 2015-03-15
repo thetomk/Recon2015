@@ -139,7 +139,7 @@ public class GetFRCResults extends Activity {
 
 			ArrayList<MatchSched> savedItems = null;
 			TeamData red1, red2, red3, blu1,blu2, blu3;
-			Boolean found;
+			Boolean found, update;
 			
 			Calendar c = Calendar.getInstance();
 	    	SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -148,14 +148,18 @@ public class GetFRCResults extends Activity {
 			savedItems = DynamoDBManager.getSchedList(ev);
 			Collections.sort(items, new byNaturalMatchTypeComparator());
 
-			for (MatchSched curritem : items) {
+/*			for (MatchSched curritem : items) {
 				found = false;
+                update = false;
 				for (MatchSched existitem : savedItems) {
 					if (curritem.getMatchNum().equals(existitem.getMatchNum())) {
 						found = true;
+                        if (curritem.getBlueTotal()+curritem.getRedTotal() != existitem.getBlueTotal()+existitem.getRedTotal()) {
+                            update = true;
+                        }
 					}
 				}
-				if (!found) {
+				if (!found || update) {
 					curritem.setCreateTime(formattedDate);
 					DynamoDBManager.updateMatchSched(curritem);
 										
@@ -173,7 +177,45 @@ public class GetFRCResults extends Activity {
 					DynamoDBManager.updateTeamData(blu3);
 				}
 			}
+*/
+            for (MatchSched curritem : items) {
 
+                curritem.setCreateTime(formattedDate);
+                DynamoDBManager.updateMatchSched(curritem);
+                update = true;
+
+                if (curritem.getBlueTotal()+curritem.getRedTotal() > 0){
+
+                    for (MatchSched existitem : savedItems) {
+                        if (curritem.getMatchNum().equals(existitem.getMatchNum())) {
+                            if (curritem.getBlueTotal() + curritem.getRedTotal() == existitem.getBlueTotal() + existitem.getRedTotal()) {
+                                update = false;
+                                break;
+                            }
+                        }
+                    }
+                } else {
+                    update = false;
+                }
+
+                if (update) {
+                    Log.i("SCHED","update scores for match#: "+curritem.getMatchNum());
+
+                    red1 = getPoints(curritem,"Red",curritem.getRed1());
+                    DynamoDBManager.updateTeamData(red1);
+                    red2 = getPoints(curritem,"Red",curritem.getRed2());
+                    DynamoDBManager.updateTeamData(red2);
+                    red3 = getPoints(curritem,"Red",curritem.getRed3());
+                    DynamoDBManager.updateTeamData(red3);
+                    blu1 = getPoints(curritem,"Blue",curritem.getBlue1());
+                    DynamoDBManager.updateTeamData(blu1);
+                    blu2 = getPoints(curritem,"Blue",curritem.getBlue2());
+                    DynamoDBManager.updateTeamData(blu2);
+                    blu3 = getPoints(curritem,"Blue",curritem.getBlue3());
+                    DynamoDBManager.updateTeamData(blu3);
+                }
+
+            }
 			
 			
 			return null;
@@ -210,7 +252,9 @@ public class GetFRCResults extends Activity {
 				td = new TeamData();
 				td.setEventID(ev);
 				td.setTeamNum(tnum);
-			}
+                Log.i("TEAM","Create new team record: "+tnum);
+
+            }
 			td.setOAuto(oauto + td.getOAuto());
 			td.setOTele(otele + td.getOTele());
 			td.setOFoul(ofoul + td.getOFoul());
@@ -220,8 +264,10 @@ public class GetFRCResults extends Activity {
 			td.setDFoul(dfoul + td.getDFoul());
 			td.setDTotal(dtot + td.getDTotal());
 			td.setNumScores(td.getNumScores()+1);
-			
-			return td;
+            Log.i("TEAM","Update scores for match/team: "+citem.getMatchNum()+"/"+tnum);
+
+
+            return td;
 		}
 		
 		protected void onPostExecute(Void result) {

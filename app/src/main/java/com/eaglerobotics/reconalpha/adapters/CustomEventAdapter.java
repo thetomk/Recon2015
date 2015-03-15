@@ -58,7 +58,7 @@ public class CustomEventAdapter extends ArrayAdapter<Event> {
 	    holder.evcode.setText(cv);
 	    holder.location.setText(lv);
 	    holder.evname.setText(nv);
-	    holder.dates.setText(sd.substring(0,9) + " - "+ ed.substring(0,9));
+	    holder.dates.setText(sd.substring(0,10) + " - "+ ed.substring(0,10));
 
 	    
 

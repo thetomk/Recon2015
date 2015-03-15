@@ -6,6 +6,7 @@ import java.util.Map;
 
 import com.eaglerobotics.reconalpha.DynamoDBManager;
 import com.eaglerobotics.reconalpha.DynamoDBManager.TeamMatch;
+import com.eaglerobotics.reconalpha.DynamoDBManager.TeamData;
 
 
 public class Team {
@@ -22,6 +23,7 @@ public class Team {
 		float tp, bp, np;
 		int gpct = 0;
 		ArrayList<TeamMatch> matchList;
+        TeamData tmData;
 		String[] commentStrings;
 		int cpct;
 		String allcomm;
@@ -36,6 +38,8 @@ public class Team {
 		currTeam.setTeamNum(team);
 	
 		// go get team data here and add to object
+        tmData = new TeamData();
+        tmData = DynamoDBManager.getTeamData(ev, team);
 		matchList = new ArrayList<TeamMatch>();
 		matchList = DynamoDBManager.getTeamList(ev,team);
         int total = 0;
@@ -76,7 +80,7 @@ public class Team {
 
 		currTeam.setGoodPct(cpct);
 
-        commentStrings = allcomm.split("; "); 
+/*        commentStrings = allcomm.split("; ");
         countMap = new HashMap<String, Integer>();
         countStringOccurences(commentStrings);
 
@@ -104,8 +108,10 @@ public class Team {
 	   		countMap.put(currComment, -1);
 	       	maxsofar = 0;
         }
-        
-        currTeam.setSynopsis(synComments);
+*/
+        currTeam.setSynopsis(allcomm);
+
+        currTeam.setRank(tmData.getRank());
 
 		
 		return currTeam;

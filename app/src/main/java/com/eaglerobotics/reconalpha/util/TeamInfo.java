@@ -9,6 +9,7 @@ public class TeamInfo {
 	private int commentRank;
 	private int rating;
 	private String ratingLabel;
+    private int rank;
 
 
 	
@@ -75,6 +76,14 @@ public class TeamInfo {
 	public void setRatingLabel(String ratingLabel) {
 		this.ratingLabel = ratingLabel;
 	}
+
+    public int getRank() {
+        return rank;
+    }
+
+    public void setRank(int rank) {
+        this.rank = rank;
+    }
 
 }
 

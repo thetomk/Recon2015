@@ -51,7 +51,7 @@ public class CustomTeamDataAdapter extends ArrayAdapter<TeamInfo> {
 
     ViewHolder holder = (ViewHolder) rowView.getTag();
 
-    holder.team.setText(teams.get(position).getTeamNum());
+    holder.team.setText(teams.get(position).getTeamNum()+" ("+Integer.toString(teams.get(position).getRank())+")");
     holder.pb.setProgress(teams.get(position).getRating());
     holder.order.setText(position+1+".");
     holder.val.setText(teams.get(position).getRatingLabel());

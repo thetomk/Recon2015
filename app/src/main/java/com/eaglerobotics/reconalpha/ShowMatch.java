@@ -166,8 +166,8 @@ private Context context;
 	         tvR7.setText((tmobj.getCarry()?"Yes":" ---"));
 	         tvR8.setText((tmobj.getAutoStack()?"Yes":"---"));
 	         tvR9.setText((tmobj.getDriver()?"Yes":"---"));
-	         tvR10.setText((tmobj.getNoodleBin()?"Yes":"---"));
-	         tvR11.setText((tmobj.getFast()?"Yes":" ---"));
+	         tvR11.setText((tmobj.getNoodleBin()?"Yes":"---"));
+	         tvR10.setText((tmobj.getFast()?"Yes":" ---"));
 	         tvR12.setText((tmobj.getCoopTote()?"Yes":"---"));
 	         tvR13.setText((tmobj.getNoodleThrow()?"Yes":" ---"));
 	         tvR14.setText((tmobj.getCoopStack()?"Yes":"---"));
@@ -182,11 +182,11 @@ private Context context;
 	         tvL7.setBackgroundColor((tmobj.getCarry()?0x7700FF00:0x00000000));
 	         tvL8.setBackgroundColor((tmobj.getAutoStack()?0x7700FF00:0x00000000));
 	         tvL9.setBackgroundColor((tmobj.getDriver()?0x7700FF00:0x00000000));
-	         tvL10.setBackgroundColor((tmobj.getNoodleBin()?0x7700FF00:0x00000000));
-	         tvL11.setBackgroundColor((tmobj.getFast()?0x7700FF00:0x00000000));
+	         tvL11.setBackgroundColor((tmobj.getNoodleBin()?0x7700FF00:0x00000000));
+	         tvL10.setBackgroundColor((tmobj.getFast()?0x7700FF00:0x00000000));
 	         tvL12.setBackgroundColor((tmobj.getCoopTote()?0x7700FF00:0x00000000));
 	         tvL13.setBackgroundColor((tmobj.getNoodleThrow()?0x7700FF00:0x00000000));
-	         tvL14.setBackgroundColor((tmobj.getCoopStack()?0x77FF0000:0x00000000));
+	         tvL14.setBackgroundColor((tmobj.getCoopStack()?0x7700FF00:0x00000000));
 	         tvL15.setBackgroundColor((tmobj.getDied()?0x77FF0000:0x00000000));
 		}	
 
