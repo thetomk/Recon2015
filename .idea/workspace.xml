@@ -109,27 +109,18 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.eaglerobotics.reconalpha" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5992647-60e6-46f4-8970-9735965c4722" name="Default" comment="update after la">
+    <list default="true" id="c5992647-60e6-46f4-8970-9735965c4722" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/multi-dex/debug/allclasses.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/multi-dex/debug/allclasses.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/multi-dex/release/allclasses.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/multi-dex/release/allclasses.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/multi-dex/debug/componentClasses.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/multi-dex/debug/componentClasses.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/multi-dex/release/componentClasses.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/multi-dex/release/componentClasses.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomEventAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomEventAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomTeamDataAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomTeamDataAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomTeamInfoForMatchAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomTeamInfoForMatchAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/DynamoDBManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/DynamoDBManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/FindTeamMulti.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/FindTeamMulti.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/GetFRCResults.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/GetFRCResults.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/Prefs.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/Prefs.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/eaglerobotics/reconalpha/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/eaglerobotics/reconalpha/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/release/com/eaglerobotics/reconalpha/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/eaglerobotics/reconalpha/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/ShowMatch.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/ShowMatch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/util/Team.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/util/Team.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/util/TeamInfo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/util/TeamInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/ViewTeam.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/ViewTeam.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_team.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_team.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_find_team_multi.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_find_team_multi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/multi-dex/debug/maindexlist.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/multi-dex/debug/maindexlist.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/rowlayoutforteamdata.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/rowlayoutforteamdata.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/rowlayoutforteaminfoformatch.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/rowlayoutforteaminfoformatch.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Recon2015.iws" />
@@ -872,7 +863,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/ListMatches.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomArrayAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomMatchAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomTeamArrayAdapter.java" />
@@ -893,11 +883,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/frcAPI/FRCSchedule.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_frc_data.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_find_team_multi.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/frcAPI/Event.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/frcAPI/FRCEvents.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/FRCRank.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/frcAPI/FRCAPIEventInterface.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_get_frcevents.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/GetFRCEvents.java" />
@@ -910,19 +898,22 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/rowlayoutforsched.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/GetFRCResults.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomEventAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/util/TeamInfo.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/ScoutOurMatch.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/ShowMatch.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/ViewTeam.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/DynamoDBManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/FindTeamMulti.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/rowlayoutforteamdata.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomTeamDataAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/util/Team.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/rowlayoutforteaminfoformatch.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomTeamInfoForMatchAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_team.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomTeamDataAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/rowlayoutforteamdata.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_find_team_multi.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/util/Team.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/Prefs.java" />
       </list>
     </option>
   </component>
@@ -1623,7 +1614,11 @@
       <created>1424585617347</created>
       <updated>1424585617347</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update after la">
+      <created>1426445826689</created>
+      <updated>1426445826689</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1653,31 +1648,31 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34922862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819074" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.63135594" sideWeight="0.8712446" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44491526" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.04378531" sideWeight="0.26323318" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10939691" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21327683" sideWeight="0.26323318" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496318" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44491526" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.04378531" sideWeight="0.7367668" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2457627" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21327683" sideWeight="0.7367668" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26967096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26967096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38418078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4435028" sideWeight="0.63733906" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909605" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1756,46 +1751,14 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="42" />
+      <option name="time" value="45" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_frc_data.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7068063" vertical-offset="0" max-vertical-offset="573">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_find_team_multi.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2863" max-vertical-offset="3765">
-          <caret line="219" column="21" selection-start-line="219" selection-start-column="21" selection-end-line="219" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/frcAPI/Ranking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3300">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/cognito/AWSClientMgr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.2189781" vertical-offset="315" max-vertical-offset="1110">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/cognito/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10948905" vertical-offset="0" max-vertical-offset="685">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1824,13 +1787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2639296" vertical-offset="0" max-vertical-offset="682">
           <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/Prefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1991,13 +1947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/frcAPI/FRCEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.034246575" vertical-offset="105" max-vertical-offset="795">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/GetFRCEvents.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72602737" vertical-offset="1017" max-vertical-offset="1545">
@@ -2011,13 +1960,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="822" max-vertical-offset="2070">
           <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7351598" vertical-offset="188" max-vertical-offset="1860">
-          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -2043,13 +1985,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/TeamList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.094339624" vertical-offset="0" max-vertical-offset="1620">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/GetFRCResults.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3544" max-vertical-offset="4245">
@@ -2062,33 +1997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="10181" max-vertical-offset="14790">
           <caret line="1364" column="0" selection-start-line="1364" selection-start-column="0" selection-end-line="1364" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/rowlayoutforteamdata.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomTeamDataAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9244992" vertical-offset="0" max-vertical-offset="780">
-          <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/FindTeamMulti.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.4481132" vertical-offset="3795" max-vertical-offset="6360">
-          <caret line="269" column="47" selection-start-line="269" selection-start-column="47" selection-end-line="269" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -2109,16 +2017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/util/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.7583892" vertical-offset="0" max-vertical-offset="2145">
-          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/util/TeamInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37807608" vertical-offset="236" max-vertical-offset="885">
@@ -2134,14 +2032,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomTeamInfoForMatchAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8519794" vertical-offset="240" max-vertical-offset="885">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2173,14 +2063,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/rowlayoutforteaminfo.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1666" max-vertical-offset="2355">
-          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomTeamInfoForMatchAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9782609" vertical-offset="240" max-vertical-offset="885">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/FindTeamMulti.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.518868" vertical-offset="0" max-vertical-offset="6360">
+          <caret line="269" column="47" selection-start-line="269" selection-start-column="47" selection-end-line="269" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/adapters/CustomTeamDataAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9244992" vertical-offset="0" max-vertical-offset="825">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/rowlayoutforteamdata.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/util/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5254238" vertical-offset="0" max-vertical-offset="2040">
+          <caret line="72" column="50" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/cognito/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14177693" vertical-offset="0" max-vertical-offset="529">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/frcAPI/FRCEvents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17013232" vertical-offset="0" max-vertical-offset="795">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/TeamList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1620">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_find_team_multi.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2863" max-vertical-offset="3765">
+          <caret line="219" column="21" selection-start-line="219" selection-start-column="21" selection-end-line="219" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33537832" vertical-offset="961" max-vertical-offset="2355">
+          <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/Splash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.1802325" vertical-offset="0" max-vertical-offset="1350">
+          <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/Prefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68809074" vertical-offset="641" max-vertical-offset="1170">
+          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eaglerobotics/reconalpha/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.8071833" vertical-offset="0" max-vertical-offset="2640">
+          <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
+          <folding>
+            <element signature="e#4391#4625#0" expanded="true" />
+            <element signature="e#4610#4611#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

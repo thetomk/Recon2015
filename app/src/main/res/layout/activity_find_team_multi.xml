@@ -222,8 +222,8 @@
             android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:text="ToggleButton"
-            android:textOff="Off Bin"
-            android:textOn="Off Bin"
+            android:textOff="Off Bins"
+            android:textOn="Off Bins"
             android:textSize="10sp" />
 
     </LinearLayout>

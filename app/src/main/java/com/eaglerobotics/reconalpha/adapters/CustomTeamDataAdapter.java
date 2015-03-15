@@ -27,6 +27,7 @@ public class CustomTeamDataAdapter extends ArrayAdapter<TeamInfo> {
     public ProgressBar pb;
     public TextView order;
     public TextView val;
+    public TextView rnk;
   }
 
   public CustomTeamDataAdapter(Activity context, ArrayList<TeamInfo> labels) {
@@ -46,12 +47,14 @@ public class CustomTeamDataAdapter extends ArrayAdapter<TeamInfo> {
       viewHolder.pb = (ProgressBar) rowView.findViewById(R.id.progbar);
       viewHolder.order = (TextView) rowView.findViewById(R.id.textOrder);
       viewHolder.val = (TextView) rowView.findViewById(R.id.textValue);
+      viewHolder.rnk = (TextView) rowView.findViewById(R.id.textRank);
       rowView.setTag(viewHolder);
     }
 
     ViewHolder holder = (ViewHolder) rowView.getTag();
 
-    holder.team.setText(teams.get(position).getTeamNum()+" ("+Integer.toString(teams.get(position).getRank())+")");
+    holder.team.setText(teams.get(position).getTeamNum());
+    holder.rnk.setText("("+Integer.toString(teams.get(position).getRank())+")");
     holder.pb.setProgress(teams.get(position).getRating());
     holder.order.setText(position+1+".");
     holder.val.setText(teams.get(position).getRatingLabel());

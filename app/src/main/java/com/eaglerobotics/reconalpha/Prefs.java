@@ -36,7 +36,7 @@ public class Prefs extends Activity {
 	     etpass = (EditText)findViewById(R.id.editTextPw); 
 	     etevent = (EditText)findViewById(R.id.editTextEv); 
 	     tvversion = (TextView)findViewById(R.id.version);
-	     
+
 	    
 	    etuser.setText(username);
 	    etpass.setText(pass);
@@ -69,6 +69,8 @@ public class Prefs extends Activity {
 	      editor.putString("user", etuser.getText().toString());
 	      editor.putString("pwd", etpass.getText().toString());
 	      editor.putString("event", etevent.getText().toString());
+
+          Splash.settings.edit().putString("event", etevent.getText().toString());
 
 	      // Commit the edits!
 	      editor.commit();

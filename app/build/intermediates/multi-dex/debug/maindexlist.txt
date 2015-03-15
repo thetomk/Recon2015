@@ -413,6 +413,7 @@ com/eaglerobotics/reconalpha/GetFRCEvents$2.class
 com/eaglerobotics/reconalpha/ScoutOurMatch.class
 com/amazonaws/com/fasterxml/jackson/databind/ser/std/StdArraySerializers$IntArraySerializer.class
 com/fasterxml/jackson/annotation/JsonBackReference.class
+com/eaglerobotics/reconalpha/MainActivity$1.class
 com/eaglerobotics/reconalpha/twitter/FRCResults$DownloadTwitterTask.class
 com/fasterxml/jackson/annotation/JacksonInject.class
 retrofit/mime/MimeUtil.class

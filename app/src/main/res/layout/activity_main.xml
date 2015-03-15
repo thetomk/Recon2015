@@ -73,7 +73,7 @@
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="findComment"
+            android:onClick="findTeams"
             android:text="Find Teams"
             android:width="120dp" />
 
@@ -106,7 +106,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
-            android:onClick="getFRCFMS"
+            android:onClick="showRank"
             android:text="Rank"
             android:width="120dp" />
 
@@ -120,8 +120,8 @@
             android:id="@+id/button8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="addSched"
-            android:text="Add Sched"
+            android:onClick="showTeams"
+            android:text="Teams"
             android:width="120dp" />
         <Button
             android:id="@+id/button11"

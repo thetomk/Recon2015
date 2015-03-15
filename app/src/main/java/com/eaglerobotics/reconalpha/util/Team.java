@@ -47,7 +47,6 @@ public class Team {
 		for (TeamMatch curritem : matchList) {
 
 
-
             if (curritem.getTotes() > 0) {total++;}
             if (curritem.getBins() > 0) {total++;}
             if (curritem.getNoodles() > 0) {total++;}
@@ -71,7 +70,7 @@ public class Team {
 
 
 			mcount = mcount + 1;
-			allcomm = allcomm + curritem.getComments();
+			allcomm = curritem.getComments() + "//" + allcomm;
 		}
 
         cpct = (int) (((float) total / (19.0*mcount))*100);
